@@ -1,0 +1,1943 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethod",
+        "printedName": "HTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ServiceContextKit.HTTPMethod.Type) -> ServiceContextKit.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "ServiceContextKit.HTTPMethod",
+                    "usr": "s:17ServiceContextKit10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ServiceContextKit.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "ServiceContextKit.HTTPMethod",
+                        "usr": "s:17ServiceContextKit10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ServiceContextKit10HTTPMethodO3getyA2CmF",
+            "mangledName": "$s17ServiceContextKit10HTTPMethodO3getyA2CmF",
+            "moduleName": "ServiceContextKit"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ServiceContextKit.HTTPMethod.Type) -> ServiceContextKit.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "ServiceContextKit.HTTPMethod",
+                    "usr": "s:17ServiceContextKit10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ServiceContextKit.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "ServiceContextKit.HTTPMethod",
+                        "usr": "s:17ServiceContextKit10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ServiceContextKit10HTTPMethodO4postyA2CmF",
+            "mangledName": "$s17ServiceContextKit10HTTPMethodO4postyA2CmF",
+            "moduleName": "ServiceContextKit"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ServiceContextKit.HTTPMethod.Type) -> ServiceContextKit.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "ServiceContextKit.HTTPMethod",
+                    "usr": "s:17ServiceContextKit10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ServiceContextKit.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "ServiceContextKit.HTTPMethod",
+                        "usr": "s:17ServiceContextKit10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ServiceContextKit10HTTPMethodO5patchyA2CmF",
+            "mangledName": "$s17ServiceContextKit10HTTPMethodO5patchyA2CmF",
+            "moduleName": "ServiceContextKit"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ServiceContextKit.HTTPMethod.Type) -> ServiceContextKit.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "ServiceContextKit.HTTPMethod",
+                    "usr": "s:17ServiceContextKit10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ServiceContextKit.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "ServiceContextKit.HTTPMethod",
+                        "usr": "s:17ServiceContextKit10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ServiceContextKit10HTTPMethodO6deleteyA2CmF",
+            "mangledName": "$s17ServiceContextKit10HTTPMethodO6deleteyA2CmF",
+            "moduleName": "ServiceContextKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ServiceContextKit.HTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "ServiceContextKit.HTTPMethod",
+                    "usr": "s:17ServiceContextKit10HTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ServiceContextKit10HTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17ServiceContextKit10HTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "ServiceContextKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit10HTTPMethodO8rawValueSSvp",
+            "mangledName": "$s17ServiceContextKit10HTTPMethodO8rawValueSSvp",
+            "moduleName": "ServiceContextKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit10HTTPMethodO8rawValueSSvg",
+                "mangledName": "$s17ServiceContextKit10HTTPMethodO8rawValueSSvg",
+                "moduleName": "ServiceContextKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17ServiceContextKit10HTTPMethodO",
+        "mangledName": "$s17ServiceContextKit10HTTPMethodO",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Endpoint",
+        "printedName": "Endpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointP4pathSSvp",
+            "mangledName": "$s17ServiceContextKit8EndpointP4pathSSvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointP4pathSSvg",
+                "mangledName": "$s17ServiceContextKit8EndpointP4pathSSvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "ServiceContextKit.HTTPMethod",
+                "usr": "s:17ServiceContextKit10HTTPMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointP6methodAA10HTTPMethodOvp",
+            "mangledName": "$s17ServiceContextKit8EndpointP6methodAA10HTTPMethodOvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "ServiceContextKit.HTTPMethod",
+                    "usr": "s:17ServiceContextKit10HTTPMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointP6methodAA10HTTPMethodOvg",
+                "mangledName": "$s17ServiceContextKit8EndpointP6methodAA10HTTPMethodOvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usesToken",
+            "printedName": "usesToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointP9usesTokenSbvp",
+            "mangledName": "$s17ServiceContextKit8EndpointP9usesTokenSbvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointP9usesTokenSbvg",
+                "mangledName": "$s17ServiceContextKit8EndpointP9usesTokenSbvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subdomain",
+            "printedName": "subdomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointP9subdomainSSSgvp",
+            "mangledName": "$s17ServiceContextKit8EndpointP9subdomainSSSgvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointP9subdomainSSSgvg",
+                "mangledName": "$s17ServiceContextKit8EndpointP9subdomainSSSgvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "additionalHeaders",
+            "printedName": "additionalHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointP17additionalHeadersSDyS2SGSgvp",
+            "mangledName": "$s17ServiceContextKit8EndpointP17additionalHeadersSDyS2SGSgvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointP17additionalHeadersSDyS2SGSgvg",
+                "mangledName": "$s17ServiceContextKit8EndpointP17additionalHeadersSDyS2SGSgvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryItems",
+            "printedName": "queryItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointP10queryItemsSDyS2SGSgvp",
+            "mangledName": "$s17ServiceContextKit8EndpointP10queryItemsSDyS2SGSgvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointP10queryItemsSDyS2SGSgvg",
+                "mangledName": "$s17ServiceContextKit8EndpointP10queryItemsSDyS2SGSgvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usesToken",
+            "printedName": "usesToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointPAAE9usesTokenSbvp",
+            "mangledName": "$s17ServiceContextKit8EndpointPAAE9usesTokenSbvp",
+            "moduleName": "ServiceContextKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointPAAE9usesTokenSbvg",
+                "mangledName": "$s17ServiceContextKit8EndpointPAAE9usesTokenSbvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subdomain",
+            "printedName": "subdomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointPAAE9subdomainSSSgvp",
+            "mangledName": "$s17ServiceContextKit8EndpointPAAE9subdomainSSSgvp",
+            "moduleName": "ServiceContextKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointPAAE9subdomainSSSgvg",
+                "mangledName": "$s17ServiceContextKit8EndpointPAAE9subdomainSSSgvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "additionalHeaders",
+            "printedName": "additionalHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointPAAE17additionalHeadersSDyS2SGSgvp",
+            "mangledName": "$s17ServiceContextKit8EndpointPAAE17additionalHeadersSDyS2SGSgvp",
+            "moduleName": "ServiceContextKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointPAAE17additionalHeadersSDyS2SGSgvg",
+                "mangledName": "$s17ServiceContextKit8EndpointPAAE17additionalHeadersSDyS2SGSgvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryItems",
+            "printedName": "queryItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit8EndpointPAAE10queryItemsSDyS2SGSgvp",
+            "mangledName": "$s17ServiceContextKit8EndpointPAAE10queryItemsSDyS2SGSgvp",
+            "moduleName": "ServiceContextKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit8EndpointPAAE10queryItemsSDyS2SGSgvg",
+                "mangledName": "$s17ServiceContextKit8EndpointPAAE10queryItemsSDyS2SGSgvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Endpoint>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Endpoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ServiceContextKit8EndpointP",
+        "mangledName": "$s17ServiceContextKit8EndpointP",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServiceContext",
+        "printedName": "ServiceContext",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "urlError",
+                "printedName": "urlError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ServiceContextKit.ServiceContext.Error.Type) -> ServiceContextKit.ServiceContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "ServiceContextKit.ServiceContext.Error",
+                        "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ServiceContextKit.ServiceContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "ServiceContextKit.ServiceContext.Error",
+                            "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ServiceContextKit0aB0C5ErrorO03urlD0yA2EmF",
+                "mangledName": "$s17ServiceContextKit0aB0C5ErrorO03urlD0yA2EmF",
+                "moduleName": "ServiceContextKit"
+              },
+              {
+                "kind": "Var",
+                "name": "tokenNotFound",
+                "printedName": "tokenNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ServiceContextKit.ServiceContext.Error.Type) -> ServiceContextKit.ServiceContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "ServiceContextKit.ServiceContext.Error",
+                        "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ServiceContextKit.ServiceContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "ServiceContextKit.ServiceContext.Error",
+                            "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ServiceContextKit0aB0C5ErrorO13tokenNotFoundyA2EmF",
+                "mangledName": "$s17ServiceContextKit0aB0C5ErrorO13tokenNotFoundyA2EmF",
+                "moduleName": "ServiceContextKit"
+              },
+              {
+                "kind": "Var",
+                "name": "encodingError",
+                "printedName": "encodingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ServiceContextKit.ServiceContext.Error.Type) -> ServiceContextKit.ServiceContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "ServiceContextKit.ServiceContext.Error",
+                        "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ServiceContextKit.ServiceContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "ServiceContextKit.ServiceContext.Error",
+                            "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ServiceContextKit0aB0C5ErrorO08encodingD0yA2EmF",
+                "mangledName": "$s17ServiceContextKit0aB0C5ErrorO08encodingD0yA2EmF",
+                "moduleName": "ServiceContextKit"
+              },
+              {
+                "kind": "Var",
+                "name": "httpError",
+                "printedName": "httpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ServiceContextKit.ServiceContext.Error.Type) -> (Swift.Int) -> ServiceContextKit.ServiceContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int) -> ServiceContextKit.ServiceContext.Error",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "ServiceContextKit.ServiceContext.Error",
+                            "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(code: Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ServiceContextKit.ServiceContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "ServiceContextKit.ServiceContext.Error",
+                            "usr": "s:17ServiceContextKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ServiceContextKit0aB0C5ErrorO04httpD0yAESi_tcAEmF",
+                "mangledName": "$s17ServiceContextKit0aB0C5ErrorO04httpD0yAESi_tcAEmF",
+                "moduleName": "ServiceContextKit"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17ServiceContextKit0aB0C5ErrorO",
+            "mangledName": "$s17ServiceContextKit0aB0C5ErrorO",
+            "moduleName": "ServiceContextKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ServiceContextKit.Token?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Token",
+                    "printedName": "ServiceContextKit.Token",
+                    "usr": "s:17ServiceContextKit5TokenP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit0aB0C5tokenAA5Token_pSgvp",
+            "mangledName": "$s17ServiceContextKit0aB0C5tokenAA5Token_pSgvp",
+            "moduleName": "ServiceContextKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ServiceContextKit.Token?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Token",
+                        "printedName": "ServiceContextKit.Token",
+                        "usr": "s:17ServiceContextKit5TokenP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit0aB0C5tokenAA5Token_pSgvg",
+                "mangledName": "$s17ServiceContextKit0aB0C5tokenAA5Token_pSgvg",
+                "moduleName": "ServiceContextKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ServiceContextKit.Token?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Token",
+                        "printedName": "ServiceContextKit.Token",
+                        "usr": "s:17ServiceContextKit5TokenP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit0aB0C5tokenAA5Token_pSgvs",
+                "mangledName": "$s17ServiceContextKit0aB0C5tokenAA5Token_pSgvs",
+                "moduleName": "ServiceContextKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit0aB0C5tokenAA5Token_pSgvM",
+                "mangledName": "$s17ServiceContextKit0aB0C5tokenAA5Token_pSgvM",
+                "moduleName": "ServiceContextKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAuthenticated",
+            "printedName": "isAuthenticated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit0aB0C15isAuthenticatedSbvp",
+            "mangledName": "$s17ServiceContextKit0aB0C15isAuthenticatedSbvp",
+            "moduleName": "ServiceContextKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit0aB0C15isAuthenticatedSbvg",
+                "mangledName": "$s17ServiceContextKit0aB0C15isAuthenticatedSbvg",
+                "moduleName": "ServiceContextKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURL:urlSession:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceContext",
+                "printedName": "ServiceContextKit.ServiceContext",
+                "usr": "s:17ServiceContextKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ServiceContextKit0aB0C7baseURL10urlSessionACSS_So12NSURLSessionCtcfc",
+            "mangledName": "$s17ServiceContextKit0aB0C7baseURL10urlSessionACSS_So12NSURLSessionCtcfc",
+            "moduleName": "ServiceContextKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "ServiceContextKit.Endpoint",
+                "usr": "s:17ServiceContextKit8EndpointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ServiceContextKit0aB0C7requestyyAA8Endpoint_pYaKF",
+            "mangledName": "$s17ServiceContextKit0aB0C7requestyyAA8Endpoint_pYaKF",
+            "moduleName": "ServiceContextKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "ServiceContextKit.Endpoint",
+                "usr": "s:17ServiceContextKit8EndpointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ServiceContextKit0aB0C7requestyxAA8Endpoint_pYaKSeRzlF",
+            "mangledName": "$s17ServiceContextKit0aB0C7requestyxAA8Endpoint_pYaKSeRzlF",
+            "moduleName": "ServiceContextKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<DecodableObject where DecodableObject : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "ServiceContextKit.Endpoint",
+                "usr": "s:17ServiceContextKit8EndpointP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ServiceContextKit0aB0C7request_4bodyxAA8Endpoint_p_q_tYaKSeRzSER_r0_lF",
+            "mangledName": "$s17ServiceContextKit0aB0C7request_4bodyxAA8Endpoint_p_q_tYaKSeRzSER_r0_lF",
+            "moduleName": "ServiceContextKit",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Decodable, τ_0_1 : Swift.Encodable>",
+            "sugared_genericSig": "<DecodableObject, EncodableObject where DecodableObject : Swift.Decodable, EncodableObject : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ServiceContextKit0aB0C",
+        "mangledName": "$s17ServiceContextKit0aB0C",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Token",
+        "printedName": "Token",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit5TokenP06accessD0SSvp",
+            "mangledName": "$s17ServiceContextKit5TokenP06accessD0SSvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit5TokenP06accessD0SSvg",
+                "mangledName": "$s17ServiceContextKit5TokenP06accessD0SSvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Token>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Token>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenType",
+                "printedName": "ServiceContextKit.TokenType",
+                "usr": "s:17ServiceContextKit9TokenTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit5TokenP4typeAA0D4TypeOvp",
+            "mangledName": "$s17ServiceContextKit5TokenP4typeAA0D4TypeOvp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenType",
+                    "printedName": "ServiceContextKit.TokenType",
+                    "usr": "s:17ServiceContextKit9TokenTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit5TokenP4typeAA0D4TypeOvg",
+                "mangledName": "$s17ServiceContextKit5TokenP4typeAA0D4TypeOvg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Token>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Token>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresIn",
+            "printedName": "expiresIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit5TokenP9expiresInSivp",
+            "mangledName": "$s17ServiceContextKit5TokenP9expiresInSivp",
+            "moduleName": "ServiceContextKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit5TokenP9expiresInSivg",
+                "mangledName": "$s17ServiceContextKit5TokenP9expiresInSivg",
+                "moduleName": "ServiceContextKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ServiceContextKit.Token>",
+                "sugared_genericSig": "<Self where Self : ServiceContextKit.Token>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ServiceContextKit5TokenP",
+        "mangledName": "$s17ServiceContextKit5TokenP",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenType",
+        "printedName": "TokenType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bearer",
+            "printedName": "bearer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ServiceContextKit.TokenType.Type) -> ServiceContextKit.TokenType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenType",
+                    "printedName": "ServiceContextKit.TokenType",
+                    "usr": "s:17ServiceContextKit9TokenTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ServiceContextKit.TokenType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenType",
+                        "printedName": "ServiceContextKit.TokenType",
+                        "usr": "s:17ServiceContextKit9TokenTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ServiceContextKit9TokenTypeO6beareryA2CmF",
+            "mangledName": "$s17ServiceContextKit9TokenTypeO6beareryA2CmF",
+            "moduleName": "ServiceContextKit"
+          },
+          {
+            "kind": "Var",
+            "name": "idToken",
+            "printedName": "idToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ServiceContextKit.TokenType.Type) -> ServiceContextKit.TokenType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenType",
+                    "printedName": "ServiceContextKit.TokenType",
+                    "usr": "s:17ServiceContextKit9TokenTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ServiceContextKit.TokenType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenType",
+                        "printedName": "ServiceContextKit.TokenType",
+                        "usr": "s:17ServiceContextKit9TokenTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ServiceContextKit9TokenTypeO02idD0yA2CmF",
+            "mangledName": "$s17ServiceContextKit9TokenTypeO02idD0yA2CmF",
+            "moduleName": "ServiceContextKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenType",
+                "printedName": "ServiceContextKit.TokenType",
+                "usr": "s:17ServiceContextKit9TokenTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenType",
+                "printedName": "ServiceContextKit.TokenType",
+                "usr": "s:17ServiceContextKit9TokenTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ServiceContextKit9TokenTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17ServiceContextKit9TokenTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ServiceContextKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ServiceContextKit9TokenTypeO9hashValueSivp",
+            "mangledName": "$s17ServiceContextKit9TokenTypeO9hashValueSivp",
+            "moduleName": "ServiceContextKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ServiceContextKit9TokenTypeO9hashValueSivg",
+                "mangledName": "$s17ServiceContextKit9TokenTypeO9hashValueSivg",
+                "moduleName": "ServiceContextKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ServiceContextKit9TokenTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17ServiceContextKit9TokenTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "ServiceContextKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17ServiceContextKit9TokenTypeO",
+        "mangledName": "$s17ServiceContextKit9TokenTypeO",
+        "moduleName": "ServiceContextKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/Endpoint.swift",
+      "kind": "BooleanLiteral",
+      "offset": 506,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1191,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1197,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1922,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1928,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "StringLiteral",
+      "offset": 2821,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "StringLiteral",
+      "offset": 2861,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3459,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3465,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "StringLiteral",
+      "offset": 4137,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "StringLiteral",
+      "offset": 4961,
+      "length": 29,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "StringLiteral",
+      "offset": 4989,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "StringLiteral",
+      "offset": 5012,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/ribtiago_github\/ServiceContext\/Sources\/ServiceContextKit\/ServiceContext.swift",
+      "kind": "StringLiteral",
+      "offset": 5145,
+      "length": 15,
+      "value": "\"Authorization\""
+    }
+  ]
+}

@@ -1,0 +1,1330 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WorkflowEndpoint",
+        "printedName": "WorkflowEndpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit16WorkflowEndpointV4pathSSvp",
+            "mangledName": "$s15OrchestratorKit16WorkflowEndpointV4pathSSvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit16WorkflowEndpointV4pathSSvg",
+                "mangledName": "$s15OrchestratorKit16WorkflowEndpointV4pathSSvg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "ServiceContextKit.HTTPMethod",
+                "usr": "s:17ServiceContextKit10HTTPMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit16WorkflowEndpointV6method014ServiceContextB010HTTPMethodOvp",
+            "mangledName": "$s15OrchestratorKit16WorkflowEndpointV6method014ServiceContextB010HTTPMethodOvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "ServiceContextKit.HTTPMethod",
+                    "usr": "s:17ServiceContextKit10HTTPMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit16WorkflowEndpointV6method014ServiceContextB010HTTPMethodOvg",
+                "mangledName": "$s15OrchestratorKit16WorkflowEndpointV6method014ServiceContextB010HTTPMethodOvg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usesToken",
+            "printedName": "usesToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit16WorkflowEndpointV9usesTokenSbvp",
+            "mangledName": "$s15OrchestratorKit16WorkflowEndpointV9usesTokenSbvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit16WorkflowEndpointV9usesTokenSbvg",
+                "mangledName": "$s15OrchestratorKit16WorkflowEndpointV9usesTokenSbvg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subdomain",
+            "printedName": "subdomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit16WorkflowEndpointV9subdomainSSSgvp",
+            "mangledName": "$s15OrchestratorKit16WorkflowEndpointV9subdomainSSSgvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit16WorkflowEndpointV9subdomainSSSgvg",
+                "mangledName": "$s15OrchestratorKit16WorkflowEndpointV9subdomainSSSgvg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryItems",
+            "printedName": "queryItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit16WorkflowEndpointV10queryItemsSDyS2SGSgvp",
+            "mangledName": "$s15OrchestratorKit16WorkflowEndpointV10queryItemsSDyS2SGSgvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit16WorkflowEndpointV10queryItemsSDyS2SGSgvg",
+                "mangledName": "$s15OrchestratorKit16WorkflowEndpointV10queryItemsSDyS2SGSgvg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(subdomain:workflowName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WorkflowEndpoint",
+                "printedName": "OrchestratorKit.WorkflowEndpoint",
+                "usr": "s:15OrchestratorKit16WorkflowEndpointV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15OrchestratorKit16WorkflowEndpointV9subdomain12workflowNameACSSSg_SStcfc",
+            "mangledName": "$s15OrchestratorKit16WorkflowEndpointV9subdomain12workflowNameACSSSg_SStcfc",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15OrchestratorKit16WorkflowEndpointV",
+        "mangledName": "$s15OrchestratorKit16WorkflowEndpointV",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Endpoint",
+            "printedName": "Endpoint",
+            "usr": "s:17ServiceContextKit8EndpointP",
+            "mangledName": "$s17ServiceContextKit8EndpointP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OrchestratorToken",
+        "printedName": "OrchestratorToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit0A5TokenV06accessC0SSvp",
+            "mangledName": "$s15OrchestratorKit0A5TokenV06accessC0SSvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit0A5TokenV06accessC0SSvg",
+                "mangledName": "$s15OrchestratorKit0A5TokenV06accessC0SSvg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresIn",
+            "printedName": "expiresIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit0A5TokenV9expiresInSivp",
+            "mangledName": "$s15OrchestratorKit0A5TokenV9expiresInSivp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit0A5TokenV9expiresInSivg",
+                "mangledName": "$s15OrchestratorKit0A5TokenV9expiresInSivg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenType",
+                "printedName": "ServiceContextKit.TokenType",
+                "usr": "s:17ServiceContextKit9TokenTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit0A5TokenV4type014ServiceContextB00C4TypeOvp",
+            "mangledName": "$s15OrchestratorKit0A5TokenV4type014ServiceContextB00C4TypeOvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenType",
+                    "printedName": "ServiceContextKit.TokenType",
+                    "usr": "s:17ServiceContextKit9TokenTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit0A5TokenV4type014ServiceContextB00C4TypeOvg",
+                "mangledName": "$s15OrchestratorKit0A5TokenV4type014ServiceContextB00C4TypeOvg",
+                "moduleName": "OrchestratorKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrchestratorToken",
+                "printedName": "OrchestratorKit.OrchestratorToken",
+                "usr": "s:15OrchestratorKit0A5TokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15OrchestratorKit0A5TokenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15OrchestratorKit0A5TokenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15OrchestratorKit0A5TokenV",
+        "mangledName": "$s15OrchestratorKit0A5TokenV",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Token",
+            "printedName": "Token",
+            "usr": "s:17ServiceContextKit5TokenP",
+            "mangledName": "$s17ServiceContextKit5TokenP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GenericResponse",
+        "printedName": "GenericResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errors",
+            "printedName": "errors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[OrchestratorKit.OrchestratorError]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OrchestratorKit.OrchestratorError]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OrchestratorError",
+                        "printedName": "OrchestratorKit.OrchestratorError",
+                        "usr": "s:15OrchestratorKit0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit15GenericResponseV6errorsSayAA0A5ErrorVGSgvp",
+            "mangledName": "$s15OrchestratorKit15GenericResponseV6errorsSayAA0A5ErrorVGSgvp",
+            "moduleName": "OrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[OrchestratorKit.OrchestratorError]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[OrchestratorKit.OrchestratorError]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OrchestratorError",
+                            "printedName": "OrchestratorKit.OrchestratorError",
+                            "usr": "s:15OrchestratorKit0A5ErrorV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit15GenericResponseV6errorsSayAA0A5ErrorVGSgvg",
+                "mangledName": "$s15OrchestratorKit15GenericResponseV6errorsSayAA0A5ErrorVGSgvg",
+                "moduleName": "OrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericResponse",
+                "printedName": "OrchestratorKit.GenericResponse",
+                "usr": "s:15OrchestratorKit15GenericResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15OrchestratorKit15GenericResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15OrchestratorKit15GenericResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15OrchestratorKit15GenericResponseV",
+        "mangledName": "$s15OrchestratorKit15GenericResponseV",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OrchestratorError",
+        "printedName": "OrchestratorError",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrchestratorError",
+                "printedName": "OrchestratorKit.OrchestratorError",
+                "usr": "s:15OrchestratorKit0A5ErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15OrchestratorKit0A5ErrorV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15OrchestratorKit0A5ErrorV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15OrchestratorKit0A5ErrorV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15OrchestratorKit0A5ErrorV6encode2toys7Encoder_p_tKF",
+            "moduleName": "OrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15OrchestratorKit0A5ErrorV",
+        "mangledName": "$s15OrchestratorKit0A5ErrorV",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ServiceContextKit",
+        "printedName": "ServiceContextKit",
+        "declKind": "Import",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Orchestrator",
+        "printedName": "Orchestrator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "context",
+            "printedName": "context",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceContext",
+                "printedName": "ServiceContextKit.ServiceContext",
+                "usr": "s:17ServiceContextKit0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit0A0P7context014ServiceContextB00dE0Cvp",
+            "mangledName": "$s15OrchestratorKit0A0P7context014ServiceContextB00dE0Cvp",
+            "moduleName": "OrchestratorKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceContext",
+                    "printedName": "ServiceContextKit.ServiceContext",
+                    "usr": "s:17ServiceContextKit0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit0A0P7context014ServiceContextB00dE0Cvg",
+                "mangledName": "$s15OrchestratorKit0A0P7context014ServiceContextB00dE0Cvg",
+                "moduleName": "OrchestratorKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+                "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefix",
+            "printedName": "prefix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit0A0P6prefixSSvp",
+            "mangledName": "$s15OrchestratorKit0A0P6prefixSSvp",
+            "moduleName": "OrchestratorKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit0A0P6prefixSSvg",
+                "mangledName": "$s15OrchestratorKit0A0P6prefixSSvg",
+                "moduleName": "OrchestratorKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+                "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authenticationSubdomain",
+            "printedName": "authenticationSubdomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit0A0P23authenticationSubdomainSSSgvp",
+            "mangledName": "$s15OrchestratorKit0A0P23authenticationSubdomainSSSgvp",
+            "moduleName": "OrchestratorKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit0A0P23authenticationSubdomainSSSgvg",
+                "mangledName": "$s15OrchestratorKit0A0P23authenticationSubdomainSSSgvg",
+                "moduleName": "OrchestratorKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+                "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "workflowsSubdomain",
+            "printedName": "workflowsSubdomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15OrchestratorKit0A0P18workflowsSubdomainSSSgvp",
+            "mangledName": "$s15OrchestratorKit0A0P18workflowsSubdomainSSSgvp",
+            "moduleName": "OrchestratorKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15OrchestratorKit0A0P18workflowsSubdomainSSSgvg",
+                "mangledName": "$s15OrchestratorKit0A0P18workflowsSubdomainSSSgvg",
+                "moduleName": "OrchestratorKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+                "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getToken",
+            "printedName": "getToken(username:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrchestratorToken",
+                "printedName": "OrchestratorKit.OrchestratorToken",
+                "usr": "s:15OrchestratorKit0A5TokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15OrchestratorKit0A0PAAE8getToken8username8passwordAA0aD0VSS_SStYaKF",
+            "mangledName": "$s15OrchestratorKit0A0PAAE8getToken8username8passwordAA0aD0VSS_SStYaKF",
+            "moduleName": "OrchestratorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+            "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMagicNumber",
+            "printedName": "getMagicNumber()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15OrchestratorKit0A0PAAE14getMagicNumberSiyYaKF",
+            "mangledName": "$s15OrchestratorKit0A0PAAE14getMagicNumberSiyYaKF",
+            "moduleName": "OrchestratorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+            "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTotp",
+            "printedName": "getTotp(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15OrchestratorKit0A0PAAE7getTotpySiSSYaKF",
+            "mangledName": "$s15OrchestratorKit0A0PAAE7getTotpySiSSYaKF",
+            "moduleName": "OrchestratorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+            "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfiguration",
+            "printedName": "getConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15OrchestratorKit0A0PAAE16getConfigurationSSyYaKF",
+            "mangledName": "$s15OrchestratorKit0A0PAAE16getConfigurationSSyYaKF",
+            "moduleName": "OrchestratorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : OrchestratorKit.Orchestrator>",
+            "sugared_genericSig": "<Self where Self : OrchestratorKit.Orchestrator>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15OrchestratorKit0A0P",
+        "mangledName": "$s15OrchestratorKit0A0P",
+        "moduleName": "OrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Endpoints\/GetTokenEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 13,
+      "value": "\"\/Auth\/Token\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Endpoints\/WorkflowEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 31,
+      "value": "\"\/Workflows\/BasicExecuteByName\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Endpoints\/WorkflowEndpoint.swift",
+      "kind": "BooleanLiteral",
+      "offset": 285,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Endpoints\/WorkflowEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 14,
+      "value": "\"workflowName\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Models\/Auth\/OrchestratorToken.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 14,
+      "value": "\"access_token\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Models\/Auth\/OrchestratorToken.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 12,
+      "value": "\"expires_in\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Models\/Auth\/OrchestratorToken.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 12,
+      "value": "\"token_type\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Models\/Auth\/OrchestratorToken.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 14,
+      "value": "\"access_token\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Models\/Auth\/OrchestratorToken.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 12,
+      "value": "\"expires_in\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Models\/Auth\/OrchestratorToken.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 12,
+      "value": "\"token_type\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Models\/Auth\/OrchestratorToken.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 8,
+      "value": "\"Bearer\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 1,
+      "value": "\".GetMagicNumber\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "Dictionary",
+      "offset": 843,
+      "length": 15,
+      "value": "[(\"Type\", \"IOS\")]"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
+      "length": 1,
+      "value": "\".GetTotpNumber\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1264,
+      "length": 11,
+      "value": "\"Parameter\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1597,
+      "length": 42,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1612,
+      "length": 1,
+      "value": "\".GetConfigurationParameter\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/orchestrator-ios\/Sources\/OrchestratorKit\/Orchestrator.swift",
+      "kind": "Dictionary",
+      "offset": 1660,
+      "length": 93,
+      "value": "[(\"Type\", \"IOS\"), (\"ParameterName\", \"UNMANAGED_DEVICE_CONFIG\")]"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -package-name mlb_custom_kit_ios -module-name MLBCustomKit
+import Foundation
+@_exported import MLBOrchestratorKit
+import NeoFaceKit
+import NeoFaceUI
+import OSLog
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+#if compiler(>=5.3) && $Actors
+public actor CustomKit {
+  public enum Error : Swift.Error {
+    case dataParsing
+    public static func == (a: MLBCustomKit.CustomKit.Error, b: MLBCustomKit.CustomKit.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let orchestrator: MLBOrchestratorKit.MLBOrchestrator
+  final public let neoFace: NeoFaceKit.NeoFace
+  final public let neoFaceConfig: NeoFaceKit.NeoFaceConfig
+  #if compiler(>=5.3) && $AsyncAwait
+  public init(baseURL: Swift.String, authenticationSubdomain: Swift.String?, workflowsSubdomain: Swift.String?, username: Swift.String, password: Swift.String, licensePath: Swift.String, dictionaryPath: Swift.String) async throws
+  #endif
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+#endif
+public struct FaceEnrollView : SwiftUI.View {
+  public enum Error : Swift.Error {
+    case faceNotFound
+    public static func == (a: MLBCustomKit.FaceEnrollView.Error, b: MLBCustomKit.FaceEnrollView.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let customKit: MLBCustomKit.CustomKit
+  #if compiler(>=5.3) && $Actors
+  public init(customKit: MLBCustomKit.CustomKit, result: SwiftUI.Binding<MLBOrchestratorKit.Person?>, error: SwiftUI.Binding<(any Swift.Error)?>? = nil, isCapturing: SwiftUI.Binding<Swift.Bool>? = nil, isEnrolling: SwiftUI.Binding<Swift.Bool>? = nil, validityEndDate: Foundation.Date)
+  #endif
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12MLBCustomKit14FaceEnrollViewV4bodyQrvp", 0) __
+}
+extension MLBCustomKit.CustomKit.Error : Swift.Equatable {}
+extension MLBCustomKit.CustomKit.Error : Swift.Hashable {}
+extension MLBCustomKit.FaceEnrollView.Error : Swift.Equatable {}
+extension MLBCustomKit.FaceEnrollView.Error : Swift.Hashable {}

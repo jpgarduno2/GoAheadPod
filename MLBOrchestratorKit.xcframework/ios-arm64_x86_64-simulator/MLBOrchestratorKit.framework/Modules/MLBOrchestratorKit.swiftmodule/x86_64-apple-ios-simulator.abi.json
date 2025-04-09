@@ -1,0 +1,2148 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit"
+      },
+      {
+        "kind": "Import",
+        "name": "OrchestratorKit",
+        "printedName": "OrchestratorKit",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MLBOrchestrator",
+        "printedName": "MLBOrchestrator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prefix",
+            "printedName": "prefix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit0A0V6prefixSSvp",
+            "mangledName": "$s18MLBOrchestratorKit0A0V6prefixSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit0A0V6prefixSSvg",
+                "mangledName": "$s18MLBOrchestratorKit0A0V6prefixSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "context",
+            "printedName": "context",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceContext",
+                "printedName": "ServiceContextKit.ServiceContext",
+                "usr": "s:17ServiceContextKit0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit0A0V7context014ServiceContextB00dE0Cvp",
+            "mangledName": "$s18MLBOrchestratorKit0A0V7context014ServiceContextB00dE0Cvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceContext",
+                    "printedName": "ServiceContextKit.ServiceContext",
+                    "usr": "s:17ServiceContextKit0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit0A0V7context014ServiceContextB00dE0Cvg",
+                "mangledName": "$s18MLBOrchestratorKit0A0V7context014ServiceContextB00dE0Cvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authenticationSubdomain",
+            "printedName": "authenticationSubdomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit0A0V23authenticationSubdomainSSSgvp",
+            "mangledName": "$s18MLBOrchestratorKit0A0V23authenticationSubdomainSSSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit0A0V23authenticationSubdomainSSSgvg",
+                "mangledName": "$s18MLBOrchestratorKit0A0V23authenticationSubdomainSSSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "workflowsSubdomain",
+            "printedName": "workflowsSubdomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit0A0V18workflowsSubdomainSSSgvp",
+            "mangledName": "$s18MLBOrchestratorKit0A0V18workflowsSubdomainSSSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit0A0V18workflowsSubdomainSSSgvg",
+                "mangledName": "$s18MLBOrchestratorKit0A0V18workflowsSubdomainSSSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(context:authenticationSubdomain:workflowsSubdomain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLBOrchestrator",
+                "printedName": "MLBOrchestratorKit.MLBOrchestrator",
+                "usr": "s:18MLBOrchestratorKit0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceContext",
+                "printedName": "ServiceContextKit.ServiceContext",
+                "usr": "s:17ServiceContextKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MLBOrchestratorKit0A0V7context23authenticationSubdomain09workflowsE0AC014ServiceContextB00gH0C_SSSgAJtcfc",
+            "mangledName": "$s18MLBOrchestratorKit0A0V7context23authenticationSubdomain09workflowsE0AC014ServiceContextB00gH0C_SSSgAJtcfc",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "registerPerson",
+            "printedName": "registerPerson(imageData:validityEndDate:validateQuality:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Person",
+                "printedName": "MLBOrchestratorKit.Person",
+                "usr": "s:18MLBOrchestratorKit6PersonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit0A0V14registerPerson9imageData15validityEndDate15validateQualityAA0D0V10Foundation0F0V_AJ0I0VSgSbtYaKF",
+            "mangledName": "$s18MLBOrchestratorKit0A0V14registerPerson9imageData15validityEndDate15validateQualityAA0D0V10Foundation0F0V_AJ0I0VSgSbtYaKF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deletePerson",
+            "printedName": "deletePerson(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit0A0V12deletePersonyySSYaKF",
+            "mangledName": "$s18MLBOrchestratorKit0A0V12deletePersonyySSYaKF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createEvent",
+            "printedName": "createEvent(stadiumID:subGroup:startDate:endDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventResponse",
+                "printedName": "MLBOrchestratorKit.EventResponse",
+                "usr": "s:18MLBOrchestratorKit13EventResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit0A0V11createEvent9stadiumID8subGroup9startDate03endJ0AA0D8ResponseVSS_Si10Foundation0J0VAMtYaKF",
+            "mangledName": "$s18MLBOrchestratorKit0A0V11createEvent9stadiumID8subGroup9startDate03endJ0AA0D8ResponseVSS_Si10Foundation0J0VAMtYaKF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateEvent",
+            "printedName": "updateEvent(_:startDate:endDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventResponse",
+                "printedName": "MLBOrchestratorKit.EventResponse",
+                "usr": "s:18MLBOrchestratorKit13EventResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit0A0V11updateEvent_9startDate03endF0AA0D8ResponseVSS_10Foundation0F0VAKtYaKF",
+            "mangledName": "$s18MLBOrchestratorKit0A0V11updateEvent_9startDate03endF0AA0D8ResponseVSS_10Foundation0F0VAKtYaKF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteEvent",
+            "printedName": "deleteEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit0A0V11deleteEventyySSYaKF",
+            "mangledName": "$s18MLBOrchestratorKit0A0V11deleteEventyySSYaKF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addToGallery",
+            "printedName": "addToGallery(personId:eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit0A0V12addToGallery8personId9eventNameySS_SStYaKF",
+            "mangledName": "$s18MLBOrchestratorKit0A0V12addToGallery8personId9eventNameySS_SStYaKF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeFromGallery",
+            "printedName": "removeFromGallery(personId:eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit0A0V17removeFromGallery8personId9eventNameySS_SStYaKF",
+            "mangledName": "$s18MLBOrchestratorKit0A0V17removeFromGallery8personId9eventNameySS_SStYaKF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18MLBOrchestratorKit0A0V",
+        "mangledName": "$s18MLBOrchestratorKit0A0V",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Orchestrator",
+            "printedName": "Orchestrator",
+            "usr": "s:15OrchestratorKit0A0P",
+            "mangledName": "$s15OrchestratorKit0A0P"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OrchestratorKit",
+        "printedName": "OrchestratorKit",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventResponse",
+        "printedName": "EventResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit13EventResponseV4nameSSSgvp",
+            "mangledName": "$s18MLBOrchestratorKit13EventResponseV4nameSSSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit13EventResponseV4nameSSSgvg",
+                "mangledName": "$s18MLBOrchestratorKit13EventResponseV4nameSSSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataset",
+            "printedName": "dataset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MLBOrchestratorKit.DataSet?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataSet",
+                    "printedName": "MLBOrchestratorKit.DataSet",
+                    "usr": "s:18MLBOrchestratorKit7DataSetV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit13EventResponseV7datasetAA7DataSetVSgvp",
+            "mangledName": "$s18MLBOrchestratorKit13EventResponseV7datasetAA7DataSetVSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MLBOrchestratorKit.DataSet?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataSet",
+                        "printedName": "MLBOrchestratorKit.DataSet",
+                        "usr": "s:18MLBOrchestratorKit7DataSetV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit13EventResponseV7datasetAA7DataSetVSgvg",
+                "mangledName": "$s18MLBOrchestratorKit13EventResponseV7datasetAA7DataSetVSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "edge",
+            "printedName": "edge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MLBOrchestratorKit.Edge]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MLBOrchestratorKit.Edge]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Edge",
+                        "printedName": "MLBOrchestratorKit.Edge",
+                        "usr": "s:18MLBOrchestratorKit4EdgeV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit13EventResponseV4edgeSayAA4EdgeVGSgvp",
+            "mangledName": "$s18MLBOrchestratorKit13EventResponseV4edgeSayAA4EdgeVGSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[MLBOrchestratorKit.Edge]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MLBOrchestratorKit.Edge]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Edge",
+                            "printedName": "MLBOrchestratorKit.Edge",
+                            "usr": "s:18MLBOrchestratorKit4EdgeV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit13EventResponseV4edgeSayAA4EdgeVGSgvg",
+                "mangledName": "$s18MLBOrchestratorKit13EventResponseV4edgeSayAA4EdgeVGSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errors",
+            "printedName": "errors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[OrchestratorKit.OrchestratorError]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OrchestratorKit.OrchestratorError]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OrchestratorError",
+                        "printedName": "OrchestratorKit.OrchestratorError",
+                        "usr": "s:15OrchestratorKit0A5ErrorV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit13EventResponseV6errorsSay012OrchestratorB00F5ErrorVGSgvp",
+            "mangledName": "$s18MLBOrchestratorKit13EventResponseV6errorsSay012OrchestratorB00F5ErrorVGSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[OrchestratorKit.OrchestratorError]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[OrchestratorKit.OrchestratorError]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OrchestratorError",
+                            "printedName": "OrchestratorKit.OrchestratorError",
+                            "usr": "s:15OrchestratorKit0A5ErrorV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit13EventResponseV6errorsSay012OrchestratorB00F5ErrorVGSgvg",
+                "mangledName": "$s18MLBOrchestratorKit13EventResponseV6errorsSay012OrchestratorB00F5ErrorVGSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventResponse",
+                "printedName": "MLBOrchestratorKit.EventResponse",
+                "usr": "s:18MLBOrchestratorKit13EventResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MLBOrchestratorKit13EventResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18MLBOrchestratorKit13EventResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MLBOrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18MLBOrchestratorKit13EventResponseV",
+        "mangledName": "$s18MLBOrchestratorKit13EventResponseV",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataSet",
+        "printedName": "DataSet",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit7DataSetV2idSiSgvp",
+            "mangledName": "$s18MLBOrchestratorKit7DataSetV2idSiSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit7DataSetV2idSiSgvg",
+                "mangledName": "$s18MLBOrchestratorKit7DataSetV2idSiSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit7DataSetV4nameSSSgvp",
+            "mangledName": "$s18MLBOrchestratorKit7DataSetV4nameSSSgvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit7DataSetV4nameSSSgvg",
+                "mangledName": "$s18MLBOrchestratorKit7DataSetV4nameSSSgvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creationUtcDateTime",
+            "printedName": "creationUtcDateTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit7DataSetV19creationUtcDateTime10Foundation0G0Vvp",
+            "mangledName": "$s18MLBOrchestratorKit7DataSetV19creationUtcDateTime10Foundation0G0Vvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit7DataSetV19creationUtcDateTime10Foundation0G0Vvg",
+                "mangledName": "$s18MLBOrchestratorKit7DataSetV19creationUtcDateTime10Foundation0G0Vvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiryUtcDateTime",
+            "printedName": "expiryUtcDateTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit7DataSetV17expiryUtcDateTime10Foundation0G0Vvp",
+            "mangledName": "$s18MLBOrchestratorKit7DataSetV17expiryUtcDateTime10Foundation0G0Vvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit7DataSetV17expiryUtcDateTime10Foundation0G0Vvg",
+                "mangledName": "$s18MLBOrchestratorKit7DataSetV17expiryUtcDateTime10Foundation0G0Vvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataSet",
+                "printedName": "MLBOrchestratorKit.DataSet",
+                "usr": "s:18MLBOrchestratorKit7DataSetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MLBOrchestratorKit7DataSetV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18MLBOrchestratorKit7DataSetV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MLBOrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18MLBOrchestratorKit7DataSetV",
+        "mangledName": "$s18MLBOrchestratorKit7DataSetV",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Edge",
+        "printedName": "Edge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit4EdgeV10attributesSaySSGvp",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV10attributesSaySSGvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit4EdgeV10attributesSaySSGvg",
+                "mangledName": "$s18MLBOrchestratorKit4EdgeV10attributesSaySSGvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "externalId",
+            "printedName": "externalId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit4EdgeV10externalIdSSvp",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV10externalIdSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit4EdgeV10externalIdSSvg",
+                "mangledName": "$s18MLBOrchestratorKit4EdgeV10externalIdSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hostId",
+            "printedName": "hostId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit4EdgeV6hostIdSSvp",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV6hostIdSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit4EdgeV6hostIdSSvg",
+                "mangledName": "$s18MLBOrchestratorKit4EdgeV6hostIdSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit4EdgeV2idSSvp",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV2idSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit4EdgeV2idSSvg",
+                "mangledName": "$s18MLBOrchestratorKit4EdgeV2idSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "machineName",
+            "printedName": "machineName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit4EdgeV11machineNameSSvp",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV11machineNameSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit4EdgeV11machineNameSSvg",
+                "mangledName": "$s18MLBOrchestratorKit4EdgeV11machineNameSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit4EdgeV4nameSSvp",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV4nameSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit4EdgeV4nameSSvg",
+                "mangledName": "$s18MLBOrchestratorKit4EdgeV4nameSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit4EdgeV5stateSSvp",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV5stateSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit4EdgeV5stateSSvg",
+                "mangledName": "$s18MLBOrchestratorKit4EdgeV5stateSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Edge",
+                "printedName": "MLBOrchestratorKit.Edge",
+                "usr": "s:18MLBOrchestratorKit4EdgeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MLBOrchestratorKit4EdgeV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18MLBOrchestratorKit4EdgeV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MLBOrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18MLBOrchestratorKit4EdgeV",
+        "mangledName": "$s18MLBOrchestratorKit4EdgeV",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Person",
+        "printedName": "Person",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit6PersonV2idSSvp",
+            "mangledName": "$s18MLBOrchestratorKit6PersonV2idSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit6PersonV2idSSvg",
+                "mangledName": "$s18MLBOrchestratorKit6PersonV2idSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceId",
+            "printedName": "referenceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit6PersonV11referenceIdSSvp",
+            "mangledName": "$s18MLBOrchestratorKit6PersonV11referenceIdSSvp",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit6PersonV11referenceIdSSvg",
+                "mangledName": "$s18MLBOrchestratorKit6PersonV11referenceIdSSvg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Person",
+                "printedName": "MLBOrchestratorKit.Person",
+                "usr": "s:18MLBOrchestratorKit6PersonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MLBOrchestratorKit6PersonV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18MLBOrchestratorKit6PersonV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MLBOrchestratorKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit6PersonV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18MLBOrchestratorKit6PersonV4hash4intoys6HasherVz_tF",
+            "moduleName": "MLBOrchestratorKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Person",
+                "printedName": "MLBOrchestratorKit.Person",
+                "usr": "s:18MLBOrchestratorKit6PersonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Person",
+                "printedName": "MLBOrchestratorKit.Person",
+                "usr": "s:18MLBOrchestratorKit6PersonV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MLBOrchestratorKit6PersonV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18MLBOrchestratorKit6PersonV2eeoiySbAC_ACtFZ",
+            "moduleName": "MLBOrchestratorKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MLBOrchestratorKit6PersonV9hashValueSivp",
+            "mangledName": "$s18MLBOrchestratorKit6PersonV9hashValueSivp",
+            "moduleName": "MLBOrchestratorKit",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MLBOrchestratorKit6PersonV9hashValueSivg",
+                "mangledName": "$s18MLBOrchestratorKit6PersonV9hashValueSivg",
+                "moduleName": "MLBOrchestratorKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18MLBOrchestratorKit6PersonV",
+        "mangledName": "$s18MLBOrchestratorKit6PersonV",
+        "moduleName": "MLBOrchestratorKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 8,
+      "value": "\"WF.MLB\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 659,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 1,
+      "value": "\".RegisterPerson\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 1,
+      "value": "\".DeletePerson\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 10,
+      "value": "\"PersonId\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 1748,
+      "length": 1,
+      "value": "\".CreateEvent\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 2286,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 2301,
+      "length": 1,
+      "value": "\".UpdateEventDates\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 2758,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 2773,
+      "length": 1,
+      "value": "\".DeleteEvent\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 2808,
+      "length": 11,
+      "value": "\"EventName\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3121,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3136,
+      "length": 1,
+      "value": "\".AddToGallery\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3185,
+      "length": 10,
+      "value": "\"PersonId\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3219,
+      "length": 11,
+      "value": "\"EventName\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3548,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3563,
+      "length": 1,
+      "value": "\".RemoveFromGallery\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3617,
+      "length": 10,
+      "value": "\"PersonId\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/MLBOrchestrator.swift",
+      "kind": "StringLiteral",
+      "offset": 3651,
+      "length": 11,
+      "value": "\"EventName\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 11,
+      "value": "\"StadiumID\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 10,
+      "value": "\"SubGroup\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 15,
+      "value": "\"EventDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 18,
+      "value": "\"EventEndDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 11,
+      "value": "\"StadiumID\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 10,
+      "value": "\"SubGroup\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 15,
+      "value": "\"EventDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/CreateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 18,
+      "value": "\"EventEndDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/PersonRegistrationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 7,
+      "value": "\"Image\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/PersonRegistrationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 17,
+      "value": "\"ValidityEndDate\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/PersonRegistrationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 17,
+      "value": "\"ValidateQuality\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/PersonRegistrationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 7,
+      "value": "\"Image\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/PersonRegistrationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 17,
+      "value": "\"ValidityEndDate\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/PersonRegistrationRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 17,
+      "value": "\"ValidateQuality\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/UpdateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 11,
+      "value": "\"EventName\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/UpdateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 15,
+      "value": "\"EventDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/UpdateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 18,
+      "value": "\"EventEndDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/UpdateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 11,
+      "value": "\"EventName\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/UpdateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 15,
+      "value": "\"EventDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Requests\/UpdateEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 18,
+      "value": "\"EventEndDateTime\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Responses\/PersonRegistration.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 8,
+      "value": "\"Person\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-orchestrator-ios\/Sources\/MLBOrchestratorKit\/Models\/Responses\/PersonRegistration.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 8,
+      "value": "\"Person\""
+    }
+  ]
+}

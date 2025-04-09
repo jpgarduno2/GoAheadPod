@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ServiceContextKit
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum HTTPMethod : Swift.String {
+  case get
+  case post
+  case patch
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol Endpoint {
+  var path: Swift.String { get }
+  var method: ServiceContextKit.HTTPMethod { get }
+  var usesToken: Swift.Bool { get }
+  var subdomain: Swift.String? { get }
+  var additionalHeaders: [Swift.String : Swift.String]? { get }
+  var queryItems: [Swift.String : Swift.String]? { get }
+}
+extension ServiceContextKit.Endpoint {
+  public var usesToken: Swift.Bool {
+    get
+  }
+  public var subdomain: Swift.String? {
+    get
+  }
+  public var additionalHeaders: [Swift.String : Swift.String]? {
+    get
+  }
+  public var queryItems: [Swift.String : Swift.String]? {
+    get
+  }
+}
+public class ServiceContext {
+  public enum Error : Swift.Error {
+    case urlError
+    case tokenNotFound
+    case encodingError
+    case httpError(code: Swift.Int)
+  }
+  public var token: (any ServiceContextKit.Token)?
+  public var isAuthenticated: Swift.Bool {
+    get
+  }
+  public init(baseURL: Swift.String, urlSession: Foundation.URLSession = .shared)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func request(_ endpoint: any ServiceContextKit.Endpoint) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func request<DecodableObject>(_ endpoint: any ServiceContextKit.Endpoint) async throws -> DecodableObject where DecodableObject : Swift.Decodable
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func request<DecodableObject, EncodableObject>(_ endpoint: any ServiceContextKit.Endpoint, body: EncodableObject) async throws -> DecodableObject where DecodableObject : Swift.Decodable, EncodableObject : Swift.Encodable
+  #endif
+  @objc deinit
+}
+public protocol Token {
+  var accessToken: Swift.String { get }
+  var type: ServiceContextKit.TokenType { get }
+  var expiresIn: Swift.Int { get }
+}
+public enum TokenType {
+  case bearer
+  case idToken
+  public static func == (a: ServiceContextKit.TokenType, b: ServiceContextKit.TokenType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension ServiceContextKit.HTTPMethod : Swift.Equatable {}
+extension ServiceContextKit.HTTPMethod : Swift.Hashable {}
+extension ServiceContextKit.HTTPMethod : Swift.RawRepresentable {}
+extension ServiceContextKit.TokenType : Swift.Equatable {}
+extension ServiceContextKit.TokenType : Swift.Hashable {}

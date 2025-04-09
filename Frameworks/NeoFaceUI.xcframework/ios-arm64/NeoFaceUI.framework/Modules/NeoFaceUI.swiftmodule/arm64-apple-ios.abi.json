@@ -1,0 +1,3226 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NeoFaceResult",
+        "printedName": "NeoFaceResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "capturedImage",
+            "printedName": "capturedImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB6ResultV13capturedImageSo7UIImageCvp",
+            "mangledName": "$s9NeoFaceUI0aB6ResultV13capturedImageSo7UIImageCvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB6ResultV13capturedImageSo7UIImageCvg",
+                "mangledName": "$s9NeoFaceUI0aB6ResultV13capturedImageSo7UIImageCvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faces",
+            "printedName": "faces",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NeoFaceKit.FaceDetail]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceDetail",
+                    "printedName": "NeoFaceKit.FaceDetail",
+                    "usr": "s:10NeoFaceKit0B6DetailV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB6ResultV5facesSay0aB3Kit0B6DetailVGvp",
+            "mangledName": "$s9NeoFaceUI0aB6ResultV5facesSay0aB3Kit0B6DetailVGvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NeoFaceKit.FaceDetail]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceDetail",
+                        "printedName": "NeoFaceKit.FaceDetail",
+                        "usr": "s:10NeoFaceKit0B6DetailV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB6ResultV5facesSay0aB3Kit0B6DetailVGvg",
+                "mangledName": "$s9NeoFaceUI0aB6ResultV5facesSay0aB3Kit0B6DetailVGvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI0aB6ResultV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9NeoFaceUI0aB6ResultV4hash4intoys6HasherVz_tF",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceResult",
+                "printedName": "NeoFaceUI.NeoFaceResult",
+                "usr": "s:9NeoFaceUI0aB6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceResult",
+                "printedName": "NeoFaceUI.NeoFaceResult",
+                "usr": "s:9NeoFaceUI0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI0aB6ResultV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9NeoFaceUI0aB6ResultV2eeoiySbAC_ACtFZ",
+            "moduleName": "NeoFaceUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB6ResultV9hashValueSivp",
+            "mangledName": "$s9NeoFaceUI0aB6ResultV9hashValueSivp",
+            "moduleName": "NeoFaceUI",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB6ResultV9hashValueSivg",
+                "mangledName": "$s9NeoFaceUI0aB6ResultV9hashValueSivg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9NeoFaceUI0aB6ResultV",
+        "mangledName": "$s9NeoFaceUI0aB6ResultV",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NeoFaceScanError",
+        "printedName": "NeoFaceScanError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NeoFaceScanError",
+                    "printedName": "NeoFaceUI.NeoFaceScanError",
+                    "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO7timeoutyA2CmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO7timeoutyA2CmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "allowedFacesExceeded",
+            "printedName": "allowedFacesExceeded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NeoFaceScanError",
+                    "printedName": "NeoFaceUI.NeoFaceScanError",
+                    "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO20allowedFacesExceededyA2CmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO20allowedFacesExceededyA2CmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "noFacesDetected",
+            "printedName": "noFacesDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NeoFaceScanError",
+                    "printedName": "NeoFaceUI.NeoFaceScanError",
+                    "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO15noFacesDetectedyA2CmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO15noFacesDetectedyA2CmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "tooClose",
+            "printedName": "tooClose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> (UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FaceDetail",
+                            "printedName": "NeoFaceKit.FaceDetail",
+                            "usr": "s:10NeoFaceKit0B6DetailV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceConfig",
+                            "printedName": "NeoFaceKit.NeoFaceConfig",
+                            "usr": "s:10NeoFaceKit0aB6ConfigV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO8tooCloseyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO8tooCloseyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tooFar",
+            "printedName": "tooFar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> (UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FaceDetail",
+                            "printedName": "NeoFaceKit.FaceDetail",
+                            "usr": "s:10NeoFaceKit0B6DetailV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceConfig",
+                            "printedName": "NeoFaceKit.NeoFaceConfig",
+                            "usr": "s:10NeoFaceKit0aB6ConfigV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO6tooFaryACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO6tooFaryACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "eyesNotOpen",
+            "printedName": "eyesNotOpen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> (UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FaceDetail",
+                            "printedName": "NeoFaceKit.FaceDetail",
+                            "usr": "s:10NeoFaceKit0B6DetailV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceConfig",
+                            "printedName": "NeoFaceKit.NeoFaceConfig",
+                            "usr": "s:10NeoFaceKit0aB6ConfigV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO11eyesNotOpenyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO11eyesNotOpenyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "notGoodPose",
+            "printedName": "notGoodPose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> (UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FaceDetail",
+                            "printedName": "NeoFaceKit.FaceDetail",
+                            "usr": "s:10NeoFaceKit0B6DetailV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceConfig",
+                            "printedName": "NeoFaceKit.NeoFaceConfig",
+                            "usr": "s:10NeoFaceKit0aB6ConfigV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO11notGoodPoseyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO11notGoodPoseyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "accessoriesFound",
+            "printedName": "accessoriesFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> (UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FaceDetail",
+                            "printedName": "NeoFaceKit.FaceDetail",
+                            "usr": "s:10NeoFaceKit0B6DetailV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceConfig",
+                            "printedName": "NeoFaceKit.NeoFaceConfig",
+                            "usr": "s:10NeoFaceKit0aB6ConfigV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO16accessoriesFoundyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO16accessoriesFoundyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "lowQuality",
+            "printedName": "lowQuality",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> (UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FaceDetail",
+                            "printedName": "NeoFaceKit.FaceDetail",
+                            "usr": "s:10NeoFaceKit0B6DetailV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceConfig",
+                            "printedName": "NeoFaceKit.NeoFaceConfig",
+                            "usr": "s:10NeoFaceKit0aB6ConfigV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO10lowQualityyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO10lowQualityyACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "noNaturalFace",
+            "printedName": "noNaturalFace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NeoFaceUI.NeoFaceScanError.Type) -> (UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig) -> NeoFaceUI.NeoFaceScanError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FaceDetail",
+                            "printedName": "NeoFaceKit.FaceDetail",
+                            "usr": "s:10NeoFaceKit0B6DetailV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceConfig",
+                            "printedName": "NeoFaceKit.NeoFaceConfig",
+                            "usr": "s:10NeoFaceKit0aB6ConfigV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NeoFaceUI.NeoFaceScanError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO09noNaturalB0yACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO09noNaturalB0yACSo7UIImageC_0aB3Kit0B6DetailVAG0aB6ConfigVtcACmF",
+            "moduleName": "NeoFaceUI"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO16errorDescriptionSSSgvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB9ScanErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9NeoFaceUI0aB9ScanErrorO16errorDescriptionSSSgvg",
+                "moduleName": "NeoFaceUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO16debugDescriptionSSvp",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO16debugDescriptionSSvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB9ScanErrorO16debugDescriptionSSvg",
+                "mangledName": "$s9NeoFaceUI0aB9ScanErrorO16debugDescriptionSSvg",
+                "moduleName": "NeoFaceUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceScanError",
+                "printedName": "NeoFaceUI.NeoFaceScanError",
+                "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceScanError",
+                "printedName": "NeoFaceUI.NeoFaceScanError",
+                "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI0aB9ScanErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9NeoFaceUI0aB9ScanErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "NeoFaceUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9NeoFaceUI0aB9ScanErrorO",
+        "mangledName": "$s9NeoFaceUI0aB9ScanErrorO",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUIExtras",
+        "printedName": "SwiftUIExtras",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NeoFaceView",
+        "printedName": "NeoFaceView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NeoFaceUI.NeoFaceResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NeoFaceResult",
+                    "printedName": "NeoFaceUI.NeoFaceResult",
+                    "usr": "s:9NeoFaceUI0aB6ResultV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NeoFaceUI.NeoFaceResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceResult",
+                        "printedName": "NeoFaceUI.NeoFaceResult",
+                        "usr": "s:9NeoFaceUI0aB6ResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NeoFaceUI.NeoFaceResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceResult",
+                        "printedName": "NeoFaceUI.NeoFaceResult",
+                        "usr": "s:9NeoFaceUI0aB6ResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvs",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvs",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvM",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV6resultAA0aB6ResultVSgvM",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$result",
+            "printedName": "$result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<NeoFaceUI.NeoFaceResult?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NeoFaceUI.NeoFaceResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceResult",
+                        "printedName": "NeoFaceUI.NeoFaceResult",
+                        "usr": "s:9NeoFaceUI0aB6ResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV7$result05SwiftC07BindingVyAA0aB6ResultVSgGvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV7$result05SwiftC07BindingVyAA0aB6ResultVSgGvp",
+            "moduleName": "NeoFaceUI",
+            "implicit": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<NeoFaceUI.NeoFaceResult?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "NeoFaceUI.NeoFaceResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceResult",
+                            "printedName": "NeoFaceUI.NeoFaceResult",
+                            "usr": "s:9NeoFaceUI0aB6ResultV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV7$result05SwiftC07BindingVyAA0aB6ResultVSgGvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV7$result05SwiftC07BindingVyAA0aB6ResultVSgGvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NeoFaceUI.NeoFaceScanError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NeoFaceScanError",
+                    "printedName": "NeoFaceUI.NeoFaceScanError",
+                    "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NeoFaceUI.NeoFaceScanError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NeoFaceUI.NeoFaceScanError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvs",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvs",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvM",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV5errorAA0aB9ScanErrorOSgvM",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$error",
+            "printedName": "$error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<NeoFaceUI.NeoFaceScanError?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NeoFaceUI.NeoFaceScanError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceScanError",
+                        "printedName": "NeoFaceUI.NeoFaceScanError",
+                        "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV6$error05SwiftC07BindingVyAA0aB9ScanErrorOSgGvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV6$error05SwiftC07BindingVyAA0aB9ScanErrorOSgGvp",
+            "moduleName": "NeoFaceUI",
+            "implicit": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<NeoFaceUI.NeoFaceScanError?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "NeoFaceUI.NeoFaceScanError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceScanError",
+                            "printedName": "NeoFaceUI.NeoFaceScanError",
+                            "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV6$error05SwiftC07BindingVyAA0aB9ScanErrorOSgGvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV6$error05SwiftC07BindingVyAA0aB9ScanErrorOSgGvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCapturing",
+            "printedName": "isCapturing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV11isCapturingSbvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV11isCapturingSbvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV11isCapturingSbvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV11isCapturingSbvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV11isCapturingSbvs",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV11isCapturingSbvs",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV11isCapturingSbvM",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV11isCapturingSbvM",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isCapturing",
+            "printedName": "$isCapturing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV12$isCapturing05SwiftC07BindingVySbGvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV12$isCapturing05SwiftC07BindingVySbGvp",
+            "moduleName": "NeoFaceUI",
+            "implicit": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV12$isCapturing05SwiftC07BindingVySbGvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV12$isCapturing05SwiftC07BindingVySbGvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFacePresent",
+            "printedName": "isFacePresent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV02isB7PresentSbvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV02isB7PresentSbvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV02isB7PresentSbvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV02isB7PresentSbvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV02isB7PresentSbvs",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV02isB7PresentSbvs",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV02isB7PresentSbvM",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV02isB7PresentSbvM",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isFacePresent",
+            "printedName": "$isFacePresent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV03$isB7Present05SwiftC07BindingVySbGvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV03$isB7Present05SwiftC07BindingVySbGvp",
+            "moduleName": "NeoFaceUI",
+            "implicit": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV03$isB7Present05SwiftC07BindingVySbGvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV03$isB7Present05SwiftC07BindingVySbGvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "forwardImageBuffer",
+            "printedName": "forwardImageBuffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvs",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvs",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvM",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV18forwardImageBufferSo11CVBufferRefaSgvM",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$forwardImageBuffer",
+            "printedName": "$forwardImageBuffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<CoreVideo.CVBuffer?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV19$forwardImageBuffer05SwiftC07BindingVySo11CVBufferRefaSgGvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV19$forwardImageBuffer05SwiftC07BindingVySo11CVBufferRefaSgGvp",
+            "moduleName": "NeoFaceUI",
+            "implicit": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<CoreVideo.CVBuffer?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreVideo.CVBuffer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CVBuffer",
+                            "printedName": "CoreVideo.CVBuffer",
+                            "usr": "c:@T@CVBufferRef"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV19$forwardImageBuffer05SwiftC07BindingVySo11CVBufferRefaSgGvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV19$forwardImageBuffer05SwiftC07BindingVySo11CVBufferRefaSgGvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(neoFace:result:error:isCapturing:isFacePresent:position:canSwitchPosition:forwardImageBuffer:neoFaceConfig:timeToCapture:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceView",
+                "printedName": "NeoFaceUI.NeoFaceView",
+                "usr": "s:9NeoFaceUI0aB4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFace",
+                "printedName": "NeoFaceKit.NeoFace",
+                "usr": "s:10NeoFaceKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<NeoFaceUI.NeoFaceResult?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NeoFaceUI.NeoFaceResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NeoFaceResult",
+                        "printedName": "NeoFaceUI.NeoFaceResult",
+                        "usr": "s:9NeoFaceUI0aB6ResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<NeoFaceUI.NeoFaceScanError?>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<NeoFaceUI.NeoFaceScanError?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "NeoFaceUI.NeoFaceScanError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NeoFaceScanError",
+                            "printedName": "NeoFaceUI.NeoFaceScanError",
+                            "usr": "s:9NeoFaceUI0aB9ScanErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "hasDefaultArg": true,
+                "usr": "c:@E@AVCaptureDevicePosition"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<CoreVideo.CVBuffer?>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<CoreVideo.CVBuffer?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreVideo.CVBuffer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CVBuffer",
+                            "printedName": "CoreVideo.CVBuffer",
+                            "usr": "c:@T@CVBufferRef"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceConfig",
+                "printedName": "NeoFaceKit.NeoFaceConfig",
+                "hasDefaultArg": true,
+                "usr": "s:10NeoFaceKit0aB6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9NeoFaceUI0aB4ViewV03neoB06result5error11isCapturing0hB7Present8position17canSwitchPosition18forwardImageBuffer0eB6Config13timeToCaptureAC0aB3Kit0aB0C_05SwiftC07BindingVyAA0aB6ResultVSgGASyAA0aB9ScanErrorOSgGSgASySbGSgA2_So015AVCaptureDeviceN0VSbASySo11CVBufferRefaSgGSgAN0abR0VSdtcfc",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV03neoB06result5error11isCapturing0hB7Present8position17canSwitchPosition18forwardImageBuffer0eB6Config13timeToCaptureAC0aB3Kit0aB0C_05SwiftC07BindingVyAA0aB6ResultVSgGASyAA0aB9ScanErrorOSgGSgASySbGSgA2_So015AVCaptureDeviceN0VSbASySo11CVBufferRefaSgGSgAN0abR0VSdtcfc",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI0aB4ViewV4bodyQrvp",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV4bodyQrvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI0aB4ViewV4bodyQrvg",
+                "mangledName": "$s9NeoFaceUI0aB4ViewV4bodyQrvg",
+                "moduleName": "NeoFaceUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "stopCapture",
+            "printedName": "stopCapture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI0aB4ViewV11stopCaptureyyF",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV11stopCaptureyyF",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCapture",
+            "printedName": "startCapture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI0aB4ViewV12startCaptureyyF",
+            "mangledName": "$s9NeoFaceUI0aB4ViewV12startCaptureyyF",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9NeoFaceUI0aB4ViewV",
+        "mangledName": "$s9NeoFaceUI0aB4ViewV",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NeoFaceUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UINeoFaceViewDelegate",
+        "printedName": "UINeoFaceViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "neoFaceView",
+            "printedName": "neoFaceView(_:isFacePresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_02isB7PresentyAA0dbE0C_SbtF",
+            "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_02isB7PresentyAA0dbE0C_SbtF",
+            "moduleName": "NeoFaceUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : NeoFaceUI.UINeoFaceViewDelegate>",
+            "sugared_genericSig": "<Self where Self : NeoFaceUI.UINeoFaceViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "neoFaceView",
+            "printedName": "neoFaceView(_:didReceiveResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceResult",
+                "printedName": "NeoFaceUI.NeoFaceResult",
+                "usr": "s:9NeoFaceUI0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_16didReceiveResultyAA0dbE0C_AA0abJ0VtF",
+            "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_16didReceiveResultyAA0dbE0C_AA0abJ0VtF",
+            "moduleName": "NeoFaceUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : NeoFaceUI.UINeoFaceViewDelegate>",
+            "sugared_genericSig": "<Self where Self : NeoFaceUI.UINeoFaceViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "neoFaceView",
+            "printedName": "neoFaceView(_:failedWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_15failedWithErroryAA0dbE0C_s0J0_ptF",
+            "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_15failedWithErroryAA0dbE0C_s0J0_ptF",
+            "moduleName": "NeoFaceUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : NeoFaceUI.UINeoFaceViewDelegate>",
+            "sugared_genericSig": "<Self where Self : NeoFaceUI.UINeoFaceViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "neoFaceView",
+            "printedName": "neoFaceView(_:didForwardImageBuffer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_21didForwardImageBufferyAA0dbE0C_So11CVBufferRefatF",
+            "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegateP03neobE0_21didForwardImageBufferyAA0dbE0C_So11CVBufferRefatF",
+            "moduleName": "NeoFaceUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : NeoFaceUI.UINeoFaceViewDelegate>",
+            "sugared_genericSig": "<Self where Self : NeoFaceUI.UINeoFaceViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "neoFaceView",
+            "printedName": "neoFaceView(_:isFacePresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB12ViewDelegatePAAE03neobE0_02isB7PresentyAA0dbE0C_SbtF",
+            "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegatePAAE03neobE0_02isB7PresentyAA0dbE0C_SbtF",
+            "moduleName": "NeoFaceUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : NeoFaceUI.UINeoFaceViewDelegate>",
+            "sugared_genericSig": "<Self where Self : NeoFaceUI.UINeoFaceViewDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "neoFaceView",
+            "printedName": "neoFaceView(_:failedWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB12ViewDelegatePAAE03neobE0_15failedWithErroryAA0dbE0C_s0J0_ptF",
+            "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegatePAAE03neobE0_15failedWithErroryAA0dbE0C_s0J0_ptF",
+            "moduleName": "NeoFaceUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : NeoFaceUI.UINeoFaceViewDelegate>",
+            "sugared_genericSig": "<Self where Self : NeoFaceUI.UINeoFaceViewDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "neoFaceView",
+            "printedName": "neoFaceView(_:didForwardImageBuffer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB12ViewDelegatePAAE03neobE0_21didForwardImageBufferyAA0dbE0C_So11CVBufferRefatF",
+            "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegatePAAE03neobE0_21didForwardImageBufferyAA0dbE0C_So11CVBufferRefatF",
+            "moduleName": "NeoFaceUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : NeoFaceUI.UINeoFaceViewDelegate>",
+            "sugared_genericSig": "<Self where Self : NeoFaceUI.UINeoFaceViewDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP",
+        "mangledName": "$s9NeoFaceUI05UINeoB12ViewDelegateP",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UINeoFaceView",
+        "printedName": "UINeoFaceView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any NeoFaceUI.UINeoFaceViewDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINeoFaceViewDelegate",
+                    "printedName": "any NeoFaceUI.UINeoFaceViewDelegate",
+                    "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvp",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvp",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NeoFaceUI.UINeoFaceViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINeoFaceViewDelegate",
+                        "printedName": "any NeoFaceUI.UINeoFaceViewDelegate",
+                        "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvg",
+                "mangledName": "$s9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvg",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NeoFaceUI.UINeoFaceViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINeoFaceViewDelegate",
+                        "printedName": "any NeoFaceUI.UINeoFaceViewDelegate",
+                        "usr": "s:9NeoFaceUI05UINeoB12ViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvs",
+                "mangledName": "$s9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvs",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvM",
+                "mangledName": "$s9NeoFaceUI05UINeoB4ViewC8delegateAA0dbE8Delegate_pSgvM",
+                "moduleName": "NeoFaceUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "layerClass",
+            "printedName": "layerClass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView(cpy)layerClass",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC10layerClassyXlXpvpZ",
+            "moduleName": "NeoFaceUI",
+            "static": true,
+            "overriding": true,
+            "objc_name": "layerClass",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView(cm)layerClass",
+                "mangledName": "$s9NeoFaceUI05UINeoB4ViewC10layerClassyXlXpvgZ",
+                "moduleName": "NeoFaceUI",
+                "static": true,
+                "overriding": true,
+                "objc_name": "layerClass",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(neoFace:position:timeToCapture:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFace",
+                "printedName": "NeoFaceKit.NeoFace",
+                "usr": "s:10NeoFaceKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "hasDefaultArg": true,
+                "usr": "c:@E@AVCaptureDevicePosition"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9NeoFaceUI05UINeoB4ViewC03neoB08position13timeToCaptureAC0aB3Kit0aB0C_So23AVCaptureDevicePositionVSdtcfc",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC03neoB08position13timeToCaptureAC0aB3Kit0aB0C_So23AVCaptureDevicePositionVSdtcfc",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToSuperview",
+            "printedName": "didMoveToSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView(im)didMoveToSuperview",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC18didMoveToSuperviewyyF",
+            "moduleName": "NeoFaceUI",
+            "overriding": true,
+            "objc_name": "didMoveToSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeFromSuperview",
+            "printedName": "removeFromSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView(im)removeFromSuperview",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC19removeFromSuperviewyyF",
+            "moduleName": "NeoFaceUI",
+            "overriding": true,
+            "objc_name": "removeFromSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopCapture",
+            "printedName": "stopCapture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB4ViewC11stopCaptureyyF",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC11stopCaptureyyF",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCapture",
+            "printedName": "startCapture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NeoFaceUI05UINeoB4ViewC12startCaptureyyF",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC12startCaptureyyF",
+            "moduleName": "NeoFaceUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINeoFaceView",
+                "printedName": "NeoFaceUI.UINeoFaceView",
+                "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView(im)initWithFrame:",
+            "mangledName": "$s9NeoFaceUI05UINeoB4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "NeoFaceUI",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NeoFaceUI@objc(cs)UINeoFaceView",
+        "mangledName": "$s9NeoFaceUI05UINeoB4ViewC",
+        "moduleName": "NeoFaceUI",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIControl",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/Shared\/CaptureSessionWorker.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 22,
+      "value": "\"face_detection_queue\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/Shared\/CaptureSessionWorker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/Shared\/CaptureSessionWorker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 786,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/Shared\/CaptureSessionWorker.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 20,
+      "value": "\"NeoFaceUI.CaptureSessionWorker\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/SwiftUI\/NeoFaceView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 907,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/SwiftUI\/NeoFaceView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1086,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/UIKit\/UINeoFaceView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2548,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-UI\/UIKit\/UINeoFaceView.swift",
+      "kind": "StringLiteral",
+      "offset": 830,
+      "length": 13,
+      "value": "\"NeoFaceUI.UINeoFaceView\""
+    }
+  ]
+}

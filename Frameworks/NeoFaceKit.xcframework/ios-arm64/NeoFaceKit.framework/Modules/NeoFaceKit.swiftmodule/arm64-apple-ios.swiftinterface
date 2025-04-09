@@ -1,0 +1,102 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NeoFaceKit
+import Accelerate
+import Combine
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct FaceDetail : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public let image: UIKit.UIImage
+  public let faceTemplate: Foundation.Data
+  public let face: CoreFoundation.CGRect
+  public let head: CoreFoundation.CGRect
+  public let leftEye: CoreFoundation.CGPoint
+  public let rightEye: CoreFoundation.CGPoint
+  public let quality: Swift.Float
+  public let liveness: Swift.Float
+  public let sharpness: Swift.Float
+  public let pan: Swift.Int
+  public let roll: Swift.Int
+  public let tilt: Swift.Int
+  public let gazeHorizontal: Swift.Float
+  public let gazeVertical: Swift.Float
+  public let faceScore: Swift.Float
+  public let frontalFaceScore: Swift.Float
+  public let leftEyeClosedConfidenceScore: Swift.Float
+  public let rightEyeClosedConfidenceScore: Swift.Float
+  public let glassesConfidenceScore: Swift.Float
+  public let sunglassesConfidenceScore: Swift.Float
+  public let smileScore: Swift.Float
+  public let maskConfidenceScore: Swift.Float
+  public func isGoodPose(panThreshold: Swift.Int = 13, rollThreshold: Swift.Int = 13, tiltThreshold: Swift.Int = 13) -> Swift.Bool
+  public func areEyesOpen(closedThreshold: Swift.Float = 0.2) -> Swift.Bool
+  public func isGoodQuality(sharpnessThreshold: Swift.Float = 0.7, scoreThreshold: Swift.Float = 0.8, qualityThreshold: Swift.Float = 0.8) -> Swift.Bool
+  public func hasNaturalFace(smileThreshold: Swift.Float = 0.4) -> Swift.Bool
+  public func isNotObstructed(sunglassesThreshold: Swift.Float = 0.4, glassesThreshold: Swift.Float = 1, maskThreshold: Swift.Float = 0.4) -> Swift.Bool
+  public func isFaceTooFar(minEyeDistanceThreshold: Swift.Int = 110) -> Swift.Bool
+  public func isFaceTooClose(maxEyeDistanceThreshold: Swift.Int = 800) -> Swift.Bool
+  public var eyeDistance: CoreFoundation.CGFloat {
+    get
+  }
+  public typealias ID = Foundation.UUID
+}
+public struct NeoFaceConfig : Swift.Codable {
+  public var optimizedImageTargetSize: Swift.Int
+  public var faceReliability: Swift.Float
+  public var qualityThreshold: Swift.Float
+  public var minEyeDistance: Swift.Int
+  public var maxEyeDistance: Swift.Int
+  public var maxFaceCount: Swift.Int
+  public var panThreshold: Swift.Int
+  public var rollThreshold: Swift.Int
+  public var tiltThreshold: Swift.Int
+  public var eyesClosedThreshold: Swift.Float
+  public var imageSharpnessThreshold: Swift.Float
+  public var faceScoreThreshold: Swift.Float
+  public var naturalFaceThreshold: Swift.Float
+  public var glassesThreshold: Swift.Float
+  public var sunglassesThreshold: Swift.Float
+  public var maskThreshold: Swift.Float
+  public var faceScanTimeout: Swift.Int
+  public var livenessThreshold: Swift.Float
+  public var isAllowOptimizedFaceDetection: Swift.Bool
+  public var isAllowOptimizedFaceExtraction: Swift.Bool
+  public init(optimizedImageTargetSize: Swift.Int = 640, faceReliability: Swift.Float = 0.8, qualityThreshold: Swift.Float = 0.8, minEyeDistance: Swift.Int = 110, maxEyeDistance: Swift.Int = 800, maxFaceCount: Swift.Int = 1, panThreshold: Swift.Int = 13, rollThreshold: Swift.Int = 13, tiltThreshold: Swift.Int = 13, eyesClosedThreshold: Swift.Float = 0.2, imageSharpnessThreshold: Swift.Float = 0.7, faceScoreThreshold: Swift.Float = 0.8, naturalFaceThreshold: Swift.Float = 0.4, glassesThreshold: Swift.Float = 1, sunglassesThreshold: Swift.Float = 0.4, maskThreshold: Swift.Float = 0.4, faceScanTimeout: Swift.Int = 60, livenessThreshold: Swift.Float = 0.5, isAllowOptimizedFaceDetection: Swift.Bool = false, isAllowOptimizedFaceExtraction: Swift.Bool = true)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class NeoFace {
+  public enum Error : Swift.Error {
+    case magicNumberFailure
+    case totpFailure
+    case licenseError
+    case notAbleToRun
+    case accessorFailure
+    public static func == (a: NeoFaceKit.NeoFace.Error, b: NeoFaceKit.NeoFace.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var isInitialized: Swift.Bool {
+    get
+  }
+  public init()
+  @objc deinit
+  public func getTotpKey(with magicNumber: Swift.Int) throws -> Swift.String
+  public func configure(with totp: Swift.Int, licensePath: Swift.String, dictionaryPath: Swift.String) throws
+  public func findFaces(in image: CoreGraphics.CGImage, reliability: Swift.Float = 0.8, eyesMinWidth: Swift.Int = 50, eyesMaxWidth: Swift.Int = 800, maxFaces: Swift.Int = 1) throws -> [NeoFaceKit.FaceDetail]
+  public func matchFace(_ face: NeoFaceKit.FaceDetail, with otherFace: NeoFaceKit.FaceDetail) throws -> Swift.Float
+}
+public struct NeoFaceDatabaseDownloader {
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func download(from sourceUrl: Foundation.URL, to destinationPathUrl: Foundation.URL, progressSubject: Combine.PassthroughSubject<Swift.Double, Swift.Never>? = nil) async throws
+  #endif
+}
+extension NeoFaceKit.NeoFace.Error : Swift.Equatable {}
+extension NeoFaceKit.NeoFace.Error : Swift.Hashable {}

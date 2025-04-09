@@ -1,0 +1,128 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NeoFaceUI
+import AVFoundation
+import Combine
+import Foundation
+@_exported import NeoFaceKit
+import Swift
+import SwiftUI
+import SwiftUIExtras
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct NeoFaceResult {
+  public let capturedImage: UIKit.UIImage
+  public let faces: [NeoFaceKit.FaceDetail]
+}
+extension NeoFaceUI.NeoFaceResult : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: NeoFaceUI.NeoFaceResult, rhs: NeoFaceUI.NeoFaceResult) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum NeoFaceScanError : Foundation.LocalizedError, Swift.CustomDebugStringConvertible, Swift.Equatable {
+  case timeout
+  case allowedFacesExceeded
+  case noFacesDetected
+  case tooClose(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)
+  case tooFar(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)
+  case eyesNotOpen(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)
+  case notGoodPose(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)
+  case accessoriesFound(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)
+  case lowQuality(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)
+  case noNaturalFace(UIKit.UIImage, NeoFaceKit.FaceDetail, NeoFaceKit.NeoFaceConfig)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+  public static func == (lhs: NeoFaceUI.NeoFaceScanError, rhs: NeoFaceUI.NeoFaceScanError) -> Swift.Bool
+}
+@_Concurrency.MainActor(unsafe) public struct NeoFaceView : SwiftUI.View {
+  @SwiftUI.Binding @_projectedValueProperty($result) @_Concurrency.MainActor(unsafe) public var result: NeoFaceUI.NeoFaceResult? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor(unsafe) public var $result: SwiftUI.Binding<NeoFaceUI.NeoFaceResult?> {
+    get
+  }
+  @SwiftUI.Binding @_projectedValueProperty($error) @_Concurrency.MainActor(unsafe) public var error: NeoFaceUI.NeoFaceScanError? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor(unsafe) public var $error: SwiftUI.Binding<NeoFaceUI.NeoFaceScanError?> {
+    get
+  }
+  @SwiftUI.Binding @_projectedValueProperty($isCapturing) @_Concurrency.MainActor(unsafe) public var isCapturing: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor(unsafe) public var $isCapturing: SwiftUI.Binding<Swift.Bool> {
+    get
+  }
+  @SwiftUI.Binding @_projectedValueProperty($isFacePresent) @_Concurrency.MainActor(unsafe) public var isFacePresent: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor(unsafe) public var $isFacePresent: SwiftUI.Binding<Swift.Bool> {
+    get
+  }
+  @SwiftUI.Binding @_projectedValueProperty($forwardImageBuffer) @_Concurrency.MainActor(unsafe) public var forwardImageBuffer: CoreVideo.CVImageBuffer? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor(unsafe) public var $forwardImageBuffer: SwiftUI.Binding<CoreVideo.CVImageBuffer?> {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public init(neoFace: NeoFaceKit.NeoFace, result: SwiftUI.Binding<NeoFaceUI.NeoFaceResult?>, error: SwiftUI.Binding<NeoFaceUI.NeoFaceScanError?>? = nil, isCapturing: SwiftUI.Binding<Swift.Bool>? = nil, isFacePresent: SwiftUI.Binding<Swift.Bool>? = nil, position: AVFoundation.AVCaptureDevice.Position = .front, canSwitchPosition: Swift.Bool = false, forwardImageBuffer: SwiftUI.Binding<CoreVideo.CVImageBuffer?>? = nil, neoFaceConfig: NeoFaceKit.NeoFaceConfig = NeoFaceConfig(), timeToCapture: Swift.Double = 0.5)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s9NeoFaceUI0aB4ViewV4bodyQrvp", 0) __
+}
+extension NeoFaceUI.NeoFaceView {
+  @_Concurrency.MainActor(unsafe) public func stopCapture()
+  @_Concurrency.MainActor(unsafe) public func startCapture()
+}
+public protocol UINeoFaceViewDelegate {
+  func neoFaceView(_ view: NeoFaceUI.UINeoFaceView, isFacePresent: Swift.Bool)
+  func neoFaceView(_ view: NeoFaceUI.UINeoFaceView, didReceiveResult result: NeoFaceUI.NeoFaceResult)
+  func neoFaceView(_ view: NeoFaceUI.UINeoFaceView, failedWithError error: any Swift.Error)
+  func neoFaceView(_ view: NeoFaceUI.UINeoFaceView, didForwardImageBuffer buffer: CoreVideo.CVImageBuffer)
+}
+extension NeoFaceUI.UINeoFaceViewDelegate {
+  public func neoFaceView(_ view: NeoFaceUI.UINeoFaceView, isFacePresent: Swift.Bool)
+  public func neoFaceView(_ view: NeoFaceUI.UINeoFaceView, failedWithError error: any Swift.Error)
+  public func neoFaceView(_ view: NeoFaceUI.UINeoFaceView, didForwardImageBuffer buffer: CoreVideo.CVImageBuffer)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class UINeoFaceView : UIKit.UIControl {
+  @_Concurrency.MainActor(unsafe) public var delegate: (any NeoFaceUI.UINeoFaceViewDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public init(neoFace: NeoFaceKit.NeoFace, position: AVFoundation.AVCaptureDevice.Position = .front, timeToCapture: Swift.Double = 0.5)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func removeFromSuperview()
+  @_Concurrency.MainActor(unsafe) public func stopCapture()
+  @_Concurrency.MainActor(unsafe) public func startCapture()
+  @objc deinit
+}
