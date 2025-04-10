@@ -1,0 +1,1060 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MLBOrchestratorKit",
+        "printedName": "MLBOrchestratorKit",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ServiceContextKit",
+        "printedName": "ServiceContextKit",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomKit",
+        "printedName": "CustomKit",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "dataParsing",
+                "printedName": "dataParsing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MLBCustomKit.CustomKit.Error.Type) -> MLBCustomKit.CustomKit.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "MLBCustomKit.CustomKit.Error",
+                        "usr": "s:12MLBCustomKit06CustomB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MLBCustomKit.CustomKit.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "MLBCustomKit.CustomKit.Error",
+                            "usr": "s:12MLBCustomKit06CustomB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12MLBCustomKit06CustomB0C5ErrorO11dataParsingyA2EmF",
+                "mangledName": "$s12MLBCustomKit06CustomB0C5ErrorO11dataParsingyA2EmF",
+                "moduleName": "MLBCustomKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "MLBCustomKit.CustomKit.Error",
+                    "usr": "s:12MLBCustomKit06CustomB0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "MLBCustomKit.CustomKit.Error",
+                    "usr": "s:12MLBCustomKit06CustomB0C5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12MLBCustomKit06CustomB0C5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s12MLBCustomKit06CustomB0C5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "MLBCustomKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12MLBCustomKit06CustomB0C5ErrorO9hashValueSivp",
+                "mangledName": "$s12MLBCustomKit06CustomB0C5ErrorO9hashValueSivp",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12MLBCustomKit06CustomB0C5ErrorO9hashValueSivg",
+                    "mangledName": "$s12MLBCustomKit06CustomB0C5ErrorO9hashValueSivg",
+                    "moduleName": "MLBCustomKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12MLBCustomKit06CustomB0C5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12MLBCustomKit06CustomB0C5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12MLBCustomKit06CustomB0C5ErrorO",
+            "mangledName": "$s12MLBCustomKit06CustomB0C5ErrorO",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orchestrator",
+            "printedName": "orchestrator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLBOrchestrator",
+                "printedName": "MLBOrchestratorKit.MLBOrchestrator",
+                "usr": "s:18MLBOrchestratorKit0A0V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MLBCustomKit06CustomB0C12orchestrator015MLBOrchestratorB00E0Vvp",
+            "mangledName": "$s12MLBCustomKit06CustomB0C12orchestrator015MLBOrchestratorB00E0Vvp",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLBOrchestrator",
+                    "printedName": "MLBOrchestratorKit.MLBOrchestrator",
+                    "usr": "s:18MLBOrchestratorKit0A0V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MLBCustomKit06CustomB0C12orchestrator015MLBOrchestratorB00E0Vvg",
+                "mangledName": "$s12MLBCustomKit06CustomB0C12orchestrator015MLBOrchestratorB00E0Vvg",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "neoFace",
+            "printedName": "neoFace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFace",
+                "printedName": "NeoFaceKit.NeoFace",
+                "usr": "s:10NeoFaceKit0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MLBCustomKit06CustomB0C7neoFace03NeoeB00fE0Cvp",
+            "mangledName": "$s12MLBCustomKit06CustomB0C7neoFace03NeoeB00fE0Cvp",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NeoFace",
+                    "printedName": "NeoFaceKit.NeoFace",
+                    "usr": "s:10NeoFaceKit0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MLBCustomKit06CustomB0C7neoFace03NeoeB00fE0Cvg",
+                "mangledName": "$s12MLBCustomKit06CustomB0C7neoFace03NeoeB00fE0Cvg",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "neoFaceConfig",
+            "printedName": "neoFaceConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceConfig",
+                "printedName": "NeoFaceKit.NeoFaceConfig",
+                "usr": "s:10NeoFaceKit0aB6ConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MLBCustomKit06CustomB0C13neoFaceConfig03NeoeB00geF0Vvp",
+            "mangledName": "$s12MLBCustomKit06CustomB0C13neoFaceConfig03NeoeB00geF0Vvp",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NeoFaceConfig",
+                    "printedName": "NeoFaceKit.NeoFaceConfig",
+                    "usr": "s:10NeoFaceKit0aB6ConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MLBCustomKit06CustomB0C13neoFaceConfig03NeoeB00geF0Vvg",
+                "mangledName": "$s12MLBCustomKit06CustomB0C13neoFaceConfig03NeoeB00geF0Vvg",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURL:authenticationSubdomain:workflowsSubdomain:username:password:licensePath:dictionaryPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomKit",
+                "printedName": "MLBCustomKit.CustomKit",
+                "usr": "s:12MLBCustomKit06CustomB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MLBCustomKit06CustomB0C7baseURL23authenticationSubdomain09workflowsG08username8password11licensePath010dictionaryL0ACSS_SSSgAKS4StYaKcfc",
+            "mangledName": "$s12MLBCustomKit06CustomB0C7baseURL23authenticationSubdomain09workflowsG08username8password11licensePath010dictionaryL0ACSS_SSSgAKS4StYaKcfc",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MLBCustomKit06CustomB0C15unownedExecutorScevp",
+            "mangledName": "$s12MLBCustomKit06CustomB0C15unownedExecutorScevp",
+            "moduleName": "MLBCustomKit",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MLBCustomKit06CustomB0C15unownedExecutorScevg",
+                "mangledName": "$s12MLBCustomKit06CustomB0C15unownedExecutorScevg",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MLBCustomKit06CustomB0C",
+        "mangledName": "$s12MLBCustomKit06CustomB0C",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnyActor",
+            "printedName": "AnyActor",
+            "usr": "s:12_Concurrency8AnyActorP",
+            "mangledName": "$ss8AnyActorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceKit",
+        "printedName": "NeoFaceKit",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceUI",
+        "printedName": "NeoFaceUI",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MLBOrchestratorKit",
+        "printedName": "MLBOrchestratorKit",
+        "declKind": "Import",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceEnrollView",
+        "printedName": "FaceEnrollView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "faceNotFound",
+                "printedName": "faceNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MLBCustomKit.FaceEnrollView.Error.Type) -> MLBCustomKit.FaceEnrollView.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "MLBCustomKit.FaceEnrollView.Error",
+                        "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MLBCustomKit.FaceEnrollView.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "MLBCustomKit.FaceEnrollView.Error",
+                            "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO12faceNotFoundyA2EmF",
+                "mangledName": "$s12MLBCustomKit14FaceEnrollViewV5ErrorO12faceNotFoundyA2EmF",
+                "moduleName": "MLBCustomKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "MLBCustomKit.FaceEnrollView.Error",
+                    "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "MLBCustomKit.FaceEnrollView.Error",
+                    "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s12MLBCustomKit14FaceEnrollViewV5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "MLBCustomKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO9hashValueSivp",
+                "mangledName": "$s12MLBCustomKit14FaceEnrollViewV5ErrorO9hashValueSivp",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO9hashValueSivg",
+                    "mangledName": "$s12MLBCustomKit14FaceEnrollViewV5ErrorO9hashValueSivg",
+                    "moduleName": "MLBCustomKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12MLBCustomKit14FaceEnrollViewV5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12MLBCustomKit14FaceEnrollViewV5ErrorO",
+            "mangledName": "$s12MLBCustomKit14FaceEnrollViewV5ErrorO",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customKit",
+            "printedName": "customKit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomKit",
+                "printedName": "MLBCustomKit.CustomKit",
+                "usr": "s:12MLBCustomKit06CustomB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MLBCustomKit14FaceEnrollViewV06customB0AA06CustomB0Cvp",
+            "mangledName": "$s12MLBCustomKit14FaceEnrollViewV06customB0AA06CustomB0Cvp",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomKit",
+                    "printedName": "MLBCustomKit.CustomKit",
+                    "usr": "s:12MLBCustomKit06CustomB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MLBCustomKit14FaceEnrollViewV06customB0AA06CustomB0Cvg",
+                "mangledName": "$s12MLBCustomKit14FaceEnrollViewV06customB0AA06CustomB0Cvg",
+                "moduleName": "MLBCustomKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(customKit:result:error:isCapturing:isEnrolling:validityEndDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceEnrollView",
+                "printedName": "MLBCustomKit.FaceEnrollView",
+                "usr": "s:12MLBCustomKit14FaceEnrollViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomKit",
+                "printedName": "MLBCustomKit.CustomKit",
+                "usr": "s:12MLBCustomKit06CustomB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<MLBOrchestratorKit.Person?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MLBOrchestratorKit.Person?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Person",
+                        "printedName": "MLBOrchestratorKit.Person",
+                        "usr": "s:18MLBOrchestratorKit6PersonV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<(any Swift.Error)?>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<(any Swift.Error)?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MLBCustomKit14FaceEnrollViewV06customB06result5error11isCapturing0I9Enrolling15validityEndDateAcA06CustomB0C_7SwiftUI7BindingVy015MLBOrchestratorB06PersonVSgGANys5Error_pSgGSgANySbGSgAY10Foundation0N0Vtcfc",
+            "mangledName": "$s12MLBCustomKit14FaceEnrollViewV06customB06result5error11isCapturing0I9Enrolling15validityEndDateAcA06CustomB0C_7SwiftUI7BindingVy015MLBOrchestratorB06PersonVSgGANys5Error_pSgGSgANySbGSgAY10Foundation0N0Vtcfc",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MLBCustomKit14FaceEnrollViewV4bodyQrvp",
+            "mangledName": "$s12MLBCustomKit14FaceEnrollViewV4bodyQrvp",
+            "moduleName": "MLBCustomKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MLBCustomKit14FaceEnrollViewV4bodyQrvg",
+                "mangledName": "$s12MLBCustomKit14FaceEnrollViewV4bodyQrvg",
+                "moduleName": "MLBCustomKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12MLBCustomKit14FaceEnrollViewV",
+        "mangledName": "$s12MLBCustomKit14FaceEnrollViewV",
+        "moduleName": "MLBCustomKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-custom-kit-ios\/Sources\/MLBCustomKit\/CustomKit.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 24,
+      "value": "\"com.nec.mlb-custom-kit\""
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/mlb-custom-kit-ios\/Sources\/MLBCustomKit\/CustomKit.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 11,
+      "value": "\"CustomKit\""
+    }
+  ]
+}

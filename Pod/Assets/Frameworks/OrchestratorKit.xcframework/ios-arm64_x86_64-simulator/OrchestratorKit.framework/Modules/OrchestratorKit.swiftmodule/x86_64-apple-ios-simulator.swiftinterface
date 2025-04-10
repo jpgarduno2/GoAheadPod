@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OrchestratorKit
+import Foundation
+@_exported import ServiceContextKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct WorkflowEndpoint : ServiceContextKit.Endpoint {
+  public let path: Swift.String
+  public let method: ServiceContextKit.HTTPMethod
+  public let usesToken: Swift.Bool
+  public let subdomain: Swift.String?
+  public let queryItems: [Swift.String : Swift.String]?
+  public init(subdomain: Swift.String?, workflowName: Swift.String)
+}
+public struct OrchestratorToken : ServiceContextKit.Token, Swift.Decodable {
+  public let accessToken: Swift.String
+  public let expiresIn: Swift.Int
+  public var type: ServiceContextKit.TokenType {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GenericResponse : Swift.Decodable {
+  public let errors: [OrchestratorKit.OrchestratorError]?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct OrchestratorError : Swift.Error, Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol Orchestrator {
+  var context: ServiceContextKit.ServiceContext { get }
+  var prefix: Swift.String { get }
+  var authenticationSubdomain: Swift.String? { get }
+  var workflowsSubdomain: Swift.String? { get }
+}
+extension OrchestratorKit.Orchestrator {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getToken(username: Swift.String, password: Swift.String) async throws -> OrchestratorKit.OrchestratorToken
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getMagicNumber() async throws -> Swift.Int
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getTotp(_ key: Swift.String) async throws -> Swift.Int
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getConfiguration() async throws -> Swift.String
+  #endif
+}

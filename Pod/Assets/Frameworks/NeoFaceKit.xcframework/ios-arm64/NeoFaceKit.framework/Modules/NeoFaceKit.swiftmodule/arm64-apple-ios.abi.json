@@ -1,0 +1,4269 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceDetail",
+        "printedName": "FaceDetail",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV2id10Foundation4UUIDVvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV2id10Foundation4UUIDVvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV2id10Foundation4UUIDVvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV2id10Foundation4UUIDVvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV5imageSo7UIImageCvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV5imageSo7UIImageCvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV5imageSo7UIImageCvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV5imageSo7UIImageCvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceTemplate",
+            "printedName": "faceTemplate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV12faceTemplate10Foundation4DataVvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV12faceTemplate10Foundation4DataVvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV12faceTemplate10Foundation4DataVvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV12faceTemplate10Foundation4DataVvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "face",
+            "printedName": "face",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV4faceSo6CGRectVvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV4faceSo6CGRectVvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV4faceSo6CGRectVvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV4faceSo6CGRectVvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "head",
+            "printedName": "head",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV4headSo6CGRectVvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV4headSo6CGRectVvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV4headSo6CGRectVvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV4headSo6CGRectVvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftEye",
+            "printedName": "leftEye",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV7leftEyeSo7CGPointVvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV7leftEyeSo7CGPointVvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV7leftEyeSo7CGPointVvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV7leftEyeSo7CGPointVvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightEye",
+            "printedName": "rightEye",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV8rightEyeSo7CGPointVvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV8rightEyeSo7CGPointVvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV8rightEyeSo7CGPointVvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV8rightEyeSo7CGPointVvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "quality",
+            "printedName": "quality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV7qualitySfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV7qualitySfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV7qualitySfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV7qualitySfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "liveness",
+            "printedName": "liveness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV8livenessSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV8livenessSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV8livenessSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV8livenessSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sharpness",
+            "printedName": "sharpness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV9sharpnessSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV9sharpnessSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV9sharpnessSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV9sharpnessSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pan",
+            "printedName": "pan",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV3panSivp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV3panSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV3panSivg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV3panSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "roll",
+            "printedName": "roll",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV4rollSivp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV4rollSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV4rollSivg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV4rollSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tilt",
+            "printedName": "tilt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV4tiltSivp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV4tiltSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV4tiltSivg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV4tiltSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gazeHorizontal",
+            "printedName": "gazeHorizontal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV14gazeHorizontalSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV14gazeHorizontalSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV14gazeHorizontalSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV14gazeHorizontalSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gazeVertical",
+            "printedName": "gazeVertical",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV12gazeVerticalSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV12gazeVerticalSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV12gazeVerticalSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV12gazeVerticalSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceScore",
+            "printedName": "faceScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV9faceScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV9faceScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV9faceScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV9faceScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frontalFaceScore",
+            "printedName": "frontalFaceScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV07frontalB5ScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV07frontalB5ScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV07frontalB5ScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV07frontalB5ScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftEyeClosedConfidenceScore",
+            "printedName": "leftEyeClosedConfidenceScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV28leftEyeClosedConfidenceScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV28leftEyeClosedConfidenceScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV28leftEyeClosedConfidenceScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV28leftEyeClosedConfidenceScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightEyeClosedConfidenceScore",
+            "printedName": "rightEyeClosedConfidenceScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV29rightEyeClosedConfidenceScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV29rightEyeClosedConfidenceScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV29rightEyeClosedConfidenceScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV29rightEyeClosedConfidenceScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "glassesConfidenceScore",
+            "printedName": "glassesConfidenceScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV22glassesConfidenceScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV22glassesConfidenceScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV22glassesConfidenceScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV22glassesConfidenceScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sunglassesConfidenceScore",
+            "printedName": "sunglassesConfidenceScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV25sunglassesConfidenceScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV25sunglassesConfidenceScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV25sunglassesConfidenceScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV25sunglassesConfidenceScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "smileScore",
+            "printedName": "smileScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV10smileScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV10smileScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV10smileScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV10smileScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maskConfidenceScore",
+            "printedName": "maskConfidenceScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV19maskConfidenceScoreSfvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV19maskConfidenceScoreSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV19maskConfidenceScoreSfvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV19maskConfidenceScoreSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isGoodPose",
+            "printedName": "isGoodPose(panThreshold:rollThreshold:tiltThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0B6DetailV10isGoodPose12panThreshold04rollI004tiltI0SbSi_S2itF",
+            "mangledName": "$s10NeoFaceKit0B6DetailV10isGoodPose12panThreshold04rollI004tiltI0SbSi_S2itF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "areEyesOpen",
+            "printedName": "areEyesOpen(closedThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0B6DetailV11areEyesOpen15closedThresholdSbSf_tF",
+            "mangledName": "$s10NeoFaceKit0B6DetailV11areEyesOpen15closedThresholdSbSf_tF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isGoodQuality",
+            "printedName": "isGoodQuality(sharpnessThreshold:scoreThreshold:qualityThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0B6DetailV13isGoodQuality18sharpnessThreshold05scoreI007qualityI0SbSf_S2ftF",
+            "mangledName": "$s10NeoFaceKit0B6DetailV13isGoodQuality18sharpnessThreshold05scoreI007qualityI0SbSf_S2ftF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasNaturalFace",
+            "printedName": "hasNaturalFace(smileThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0B6DetailV010hasNaturalB014smileThresholdSbSf_tF",
+            "mangledName": "$s10NeoFaceKit0B6DetailV010hasNaturalB014smileThresholdSbSf_tF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isNotObstructed",
+            "printedName": "isNotObstructed(sunglassesThreshold:glassesThreshold:maskThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0B6DetailV15isNotObstructed19sunglassesThreshold07glassesI004maskI0SbSf_S2ftF",
+            "mangledName": "$s10NeoFaceKit0B6DetailV15isNotObstructed19sunglassesThreshold07glassesI004maskI0SbSf_S2ftF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isFaceTooFar",
+            "printedName": "isFaceTooFar(minEyeDistanceThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0B6DetailV02isB6TooFar23minEyeDistanceThresholdSbSi_tF",
+            "mangledName": "$s10NeoFaceKit0B6DetailV02isB6TooFar23minEyeDistanceThresholdSbSi_tF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isFaceTooClose",
+            "printedName": "isFaceTooClose(maxEyeDistanceThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0B6DetailV02isB8TooClose23maxEyeDistanceThresholdSbSi_tF",
+            "mangledName": "$s10NeoFaceKit0B6DetailV02isB8TooClose23maxEyeDistanceThresholdSbSi_tF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "eyeDistance",
+            "printedName": "eyeDistance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0B6DetailV11eyeDistance14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s10NeoFaceKit0B6DetailV11eyeDistance12CoreGraphics7CGFloatVvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0B6DetailV11eyeDistance14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s10NeoFaceKit0B6DetailV11eyeDistance12CoreGraphics7CGFloatVvg",
+                "moduleName": "NeoFaceKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10NeoFaceKit0B6DetailV",
+        "mangledName": "$s10NeoFaceKit0B6DetailV",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NeoFaceConfig",
+        "printedName": "NeoFaceConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "optimizedImageTargetSize",
+            "printedName": "optimizedImageTargetSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV24optimizedImageTargetSizeSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceReliability",
+            "printedName": "faceReliability",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV15faceReliabilitySfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceReliabilitySfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV15faceReliabilitySfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceReliabilitySfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV15faceReliabilitySfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceReliabilitySfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV15faceReliabilitySfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceReliabilitySfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "qualityThreshold",
+            "printedName": "qualityThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV16qualityThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV16qualityThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV16qualityThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV16qualityThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV16qualityThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV16qualityThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV16qualityThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV16qualityThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minEyeDistance",
+            "printedName": "minEyeDistance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV14minEyeDistanceSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV14minEyeDistanceSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV14minEyeDistanceSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV14minEyeDistanceSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV14minEyeDistanceSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV14minEyeDistanceSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV14minEyeDistanceSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV14minEyeDistanceSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxEyeDistance",
+            "printedName": "maxEyeDistance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV14maxEyeDistanceSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxFaceCount",
+            "printedName": "maxFaceCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV03maxB5CountSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV03maxB5CountSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV03maxB5CountSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV03maxB5CountSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV03maxB5CountSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV03maxB5CountSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV03maxB5CountSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV03maxB5CountSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "panThreshold",
+            "printedName": "panThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV12panThresholdSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV12panThresholdSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV12panThresholdSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV12panThresholdSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV12panThresholdSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV12panThresholdSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV12panThresholdSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV12panThresholdSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rollThreshold",
+            "printedName": "rollThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV13rollThresholdSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV13rollThresholdSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13rollThresholdSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13rollThresholdSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13rollThresholdSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13rollThresholdSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13rollThresholdSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13rollThresholdSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tiltThreshold",
+            "printedName": "tiltThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV13tiltThresholdSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV13tiltThresholdSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13tiltThresholdSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13tiltThresholdSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13tiltThresholdSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13tiltThresholdSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13tiltThresholdSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13tiltThresholdSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eyesClosedThreshold",
+            "printedName": "eyesClosedThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV19eyesClosedThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageSharpnessThreshold",
+            "printedName": "imageSharpnessThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV23imageSharpnessThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceScoreThreshold",
+            "printedName": "faceScoreThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV18faceScoreThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "naturalFaceThreshold",
+            "printedName": "naturalFaceThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV07naturalB9ThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "glassesThreshold",
+            "printedName": "glassesThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV16glassesThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV16glassesThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV16glassesThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV16glassesThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV16glassesThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV16glassesThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV16glassesThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV16glassesThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sunglassesThreshold",
+            "printedName": "sunglassesThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV19sunglassesThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maskThreshold",
+            "printedName": "maskThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV13maskThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV13maskThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13maskThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13maskThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13maskThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13maskThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV13maskThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV13maskThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceScanTimeout",
+            "printedName": "faceScanTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV15faceScanTimeoutSivM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "livenessThreshold",
+            "printedName": "livenessThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV17livenessThresholdSfvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV17livenessThresholdSfvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV17livenessThresholdSfvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV17livenessThresholdSfvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV17livenessThresholdSfvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV17livenessThresholdSfvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV17livenessThresholdSfvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV17livenessThresholdSfvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAllowOptimizedFaceDetection",
+            "printedName": "isAllowOptimizedFaceDetection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB9DetectionSbvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAllowOptimizedFaceExtraction",
+            "printedName": "isAllowOptimizedFaceExtraction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvp",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvg",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvg",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvs",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvs",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvM",
+                "mangledName": "$s10NeoFaceKit0aB6ConfigV016isAllowOptimizedB10ExtractionSbvM",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(optimizedImageTargetSize:faceReliability:qualityThreshold:minEyeDistance:maxEyeDistance:maxFaceCount:panThreshold:rollThreshold:tiltThreshold:eyesClosedThreshold:imageSharpnessThreshold:faceScoreThreshold:naturalFaceThreshold:glassesThreshold:sunglassesThreshold:maskThreshold:faceScanTimeout:livenessThreshold:isAllowOptimizedFaceDetection:isAllowOptimizedFaceExtraction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceConfig",
+                "printedName": "NeoFaceKit.NeoFaceConfig",
+                "usr": "s:10NeoFaceKit0aB6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10NeoFaceKit0aB6ConfigV24optimizedImageTargetSize15faceReliability16qualityThreshold14minEyeDistance03maxnO00pB5Count03panL004rollL004tiltL0010eyesClosedL0014imageSharpnessL00i5ScoreL007naturalbL007glassesL0010sunglassesL004maskL00I11ScanTimeout08livenessL0016isAllowOptimizedB9Detection016isAllowOptimizedB10ExtractionACSi_S2fS6iS7fSiSfS2btcfc",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV24optimizedImageTargetSize15faceReliability16qualityThreshold14minEyeDistance03maxnO00pB5Count03panL004rollL004tiltL0010eyesClosedL0014imageSharpnessL00i5ScoreL007naturalbL007glassesL0010sunglassesL004maskL00I11ScanTimeout08livenessL0016isAllowOptimizedB9Detection016isAllowOptimizedB10ExtractionACSi_S2fS6iS7fSiSfS2btcfc",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFaceConfig",
+                "printedName": "NeoFaceKit.NeoFaceConfig",
+                "usr": "s:10NeoFaceKit0aB6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10NeoFaceKit0aB6ConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NeoFaceKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0aB6ConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10NeoFaceKit0aB6ConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NeoFaceKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10NeoFaceKit0aB6ConfigV",
+        "mangledName": "$s10NeoFaceKit0aB6ConfigV",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeoFaceGLAccessor",
+        "printedName": "NeoFaceGLAccessor",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NeoFace",
+        "printedName": "NeoFace",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "magicNumberFailure",
+                "printedName": "magicNumberFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NeoFaceKit.NeoFace.Error.Type) -> NeoFaceKit.NeoFace.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "NeoFaceKit.NeoFace.Error",
+                        "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NeoFaceKit.NeoFace.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "NeoFaceKit.NeoFace.Error",
+                            "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO18magicNumberFailureyA2EmF",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO18magicNumberFailureyA2EmF",
+                "moduleName": "NeoFaceKit"
+              },
+              {
+                "kind": "Var",
+                "name": "totpFailure",
+                "printedName": "totpFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NeoFaceKit.NeoFace.Error.Type) -> NeoFaceKit.NeoFace.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "NeoFaceKit.NeoFace.Error",
+                        "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NeoFaceKit.NeoFace.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "NeoFaceKit.NeoFace.Error",
+                            "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO11totpFailureyA2EmF",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO11totpFailureyA2EmF",
+                "moduleName": "NeoFaceKit"
+              },
+              {
+                "kind": "Var",
+                "name": "licenseError",
+                "printedName": "licenseError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NeoFaceKit.NeoFace.Error.Type) -> NeoFaceKit.NeoFace.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "NeoFaceKit.NeoFace.Error",
+                        "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NeoFaceKit.NeoFace.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "NeoFaceKit.NeoFace.Error",
+                            "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO07licenseD0yA2EmF",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO07licenseD0yA2EmF",
+                "moduleName": "NeoFaceKit"
+              },
+              {
+                "kind": "Var",
+                "name": "notAbleToRun",
+                "printedName": "notAbleToRun",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NeoFaceKit.NeoFace.Error.Type) -> NeoFaceKit.NeoFace.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "NeoFaceKit.NeoFace.Error",
+                        "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NeoFaceKit.NeoFace.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "NeoFaceKit.NeoFace.Error",
+                            "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO12notAbleToRunyA2EmF",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO12notAbleToRunyA2EmF",
+                "moduleName": "NeoFaceKit"
+              },
+              {
+                "kind": "Var",
+                "name": "accessorFailure",
+                "printedName": "accessorFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NeoFaceKit.NeoFace.Error.Type) -> NeoFaceKit.NeoFace.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "NeoFaceKit.NeoFace.Error",
+                        "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NeoFaceKit.NeoFace.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "NeoFaceKit.NeoFace.Error",
+                            "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO15accessorFailureyA2EmF",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO15accessorFailureyA2EmF",
+                "moduleName": "NeoFaceKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "NeoFaceKit.NeoFace.Error",
+                    "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "NeoFaceKit.NeoFace.Error",
+                    "usr": "s:10NeoFaceKit0aB0C5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "NeoFaceKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO9hashValueSivp",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO9hashValueSivp",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10NeoFaceKit0aB0C5ErrorO9hashValueSivg",
+                    "mangledName": "$s10NeoFaceKit0aB0C5ErrorO9hashValueSivg",
+                    "moduleName": "NeoFaceKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10NeoFaceKit0aB0C5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s10NeoFaceKit0aB0C5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "NeoFaceKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10NeoFaceKit0aB0C5ErrorO",
+            "mangledName": "$s10NeoFaceKit0aB0C5ErrorO",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10NeoFaceKit0aB0C13isInitializedSbvp",
+            "mangledName": "$s10NeoFaceKit0aB0C13isInitializedSbvp",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10NeoFaceKit0aB0C13isInitializedSbvg",
+                "mangledName": "$s10NeoFaceKit0aB0C13isInitializedSbvg",
+                "moduleName": "NeoFaceKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NeoFace",
+                "printedName": "NeoFaceKit.NeoFace",
+                "usr": "s:10NeoFaceKit0aB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10NeoFaceKit0aB0CACycfc",
+            "mangledName": "$s10NeoFaceKit0aB0CACycfc",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getTotpKey",
+            "printedName": "getTotpKey(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0aB0C10getTotpKey4withSSSi_tKF",
+            "mangledName": "$s10NeoFaceKit0aB0C10getTotpKey4withSSSi_tKF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:licensePath:dictionaryPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0aB0C9configure4with11licensePath010dictionaryG0ySi_S2StKF",
+            "mangledName": "$s10NeoFaceKit0aB0C9configure4with11licensePath010dictionaryG0ySi_S2StKF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findFaces",
+            "printedName": "findFaces(in:reliability:eyesMinWidth:eyesMaxWidth:maxFaces:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NeoFaceKit.FaceDetail]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceDetail",
+                    "printedName": "NeoFaceKit.FaceDetail",
+                    "usr": "s:10NeoFaceKit0B6DetailV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0aB0C9findFaces2in11reliability12eyesMinWidth0h3MaxJ003maxE0SayAA0B6DetailVGSo10CGImageRefa_SfS3itKF",
+            "mangledName": "$s10NeoFaceKit0aB0C9findFaces2in11reliability12eyesMinWidth0h3MaxJ003maxE0SayAA0B6DetailVGSo10CGImageRefa_SfS3itKF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "matchFace",
+            "printedName": "matchFace(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceDetail",
+                "printedName": "NeoFaceKit.FaceDetail",
+                "usr": "s:10NeoFaceKit0B6DetailV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceDetail",
+                "printedName": "NeoFaceKit.FaceDetail",
+                "usr": "s:10NeoFaceKit0B6DetailV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0aB0C05matchB0_4withSfAA0B6DetailV_AGtKF",
+            "mangledName": "$s10NeoFaceKit0aB0C05matchB0_4withSfAA0B6DetailV_AGtKF",
+            "moduleName": "NeoFaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10NeoFaceKit0aB0C",
+        "mangledName": "$s10NeoFaceKit0aB0C",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NeoFaceDatabaseDownloader",
+        "printedName": "NeoFaceDatabaseDownloader",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "download",
+            "printedName": "download(from:to:progressSubject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Combine.PassthroughSubject<Swift.Double, Swift.Never>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<Swift.Double, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10NeoFaceKit0aB18DatabaseDownloaderV8download4from2to15progressSubjecty10Foundation3URLV_AJ7Combine011PassthroughJ0CySds5NeverOGSgtYaKFZ",
+            "mangledName": "$s10NeoFaceKit0aB18DatabaseDownloaderV8download4from2to15progressSubjecty10Foundation3URLV_AJ7Combine011PassthroughJ0CySds5NeverOGSgtYaKFZ",
+            "moduleName": "NeoFaceKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10NeoFaceKit0aB18DatabaseDownloaderV",
+        "mangledName": "$s10NeoFaceKit0aB18DatabaseDownloaderV",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "NeoFaceKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1008,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1033,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1058,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "FloatLiteral",
+      "offset": 1260,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "FloatLiteral",
+      "offset": 1470,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "FloatLiteral",
+      "offset": 1499,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "FloatLiteral",
+      "offset": 1530,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "FloatLiteral",
+      "offset": 1744,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "FloatLiteral",
+      "offset": 1873,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1904,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "FloatLiteral",
+      "offset": 1930,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2190,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/FaceDetail.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2333,
+      "length": 3,
+      "value": "800"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 991,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1037,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1084,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1127,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1170,
+      "length": 3,
+      "value": "800"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1211,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1250,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1291,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1332,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1381,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1435,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1484,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1535,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1582,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1630,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1674,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1718,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1765,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1824,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/Models\/NeoFaceConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1886,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/NeoFace.swift",
+      "kind": "FloatLiteral",
+      "offset": 2227,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/NeoFace.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2252,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/NeoFace.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2276,
+      "length": 3,
+      "value": "800"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/NeoFace.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2297,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tiago.ribeiro\/Documents\/NeoFaceGL-Swift\/Sources\/NeoFaceGL-Swift\/NeoFaceDatabaseDownloader.swift",
+      "kind": "Array",
+      "offset": 202,
+      "length": 94,
+      "value": "[\"IntegrateDct.dat\", \"IntegrateDct2.dat\", \"IntegrateDct2_2.dat\"]"
+    }
+  ]
+}

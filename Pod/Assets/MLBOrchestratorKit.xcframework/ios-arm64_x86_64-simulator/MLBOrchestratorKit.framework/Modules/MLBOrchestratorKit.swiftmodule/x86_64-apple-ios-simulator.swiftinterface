@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MLBOrchestratorKit
+import Foundation
+@_exported import OrchestratorKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct MLBOrchestrator : OrchestratorKit.Orchestrator {
+  public let prefix: Swift.String
+  public let context: ServiceContextKit.ServiceContext
+  public let authenticationSubdomain: Swift.String?
+  public let workflowsSubdomain: Swift.String?
+  public init(context: ServiceContextKit.ServiceContext, authenticationSubdomain: Swift.String? = nil, workflowsSubdomain: Swift.String? = nil)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func registerPerson(imageData: Foundation.Data, validityEndDate: Foundation.Date? = nil, validateQuality: Swift.Bool = false) async throws -> MLBOrchestratorKit.Person
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func deletePerson(_ personId: Swift.String) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func createEvent(stadiumID: Swift.String, subGroup: Swift.Int, startDate: Foundation.Date, endDate: Foundation.Date) async throws -> MLBOrchestratorKit.EventResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func updateEvent(_ eventName: Swift.String, startDate: Foundation.Date, endDate: Foundation.Date) async throws -> MLBOrchestratorKit.EventResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func deleteEvent(_ eventName: Swift.String) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func addToGallery(personId: Swift.String, eventName: Swift.String) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func removeFromGallery(personId: Swift.String, eventName: Swift.String) async throws
+  #endif
+}
+public struct EventResponse : Swift.Decodable {
+  public let name: Swift.String?
+  public let dataset: MLBOrchestratorKit.DataSet?
+  public let edge: [MLBOrchestratorKit.Edge]?
+  public let errors: [OrchestratorKit.OrchestratorError]?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DataSet : Swift.Decodable {
+  public let id: Swift.Int?
+  public let name: Swift.String?
+  public let creationUtcDateTime: Foundation.Date
+  public let expiryUtcDateTime: Foundation.Date
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Edge : Swift.Decodable {
+  public let attributes: [Swift.String]
+  public let externalId: Swift.String
+  public let hostId: Swift.String
+  public let id: Swift.String
+  public let machineName: Swift.String
+  public let name: Swift.String
+  public let state: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Person : Swift.Decodable {
+  public let id: Swift.String
+  public let referenceId: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MLBOrchestratorKit.Person : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: MLBOrchestratorKit.Person, rhs: MLBOrchestratorKit.Person) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
