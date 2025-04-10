@@ -1,11 +1,11 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "GoAheadPod",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -47,6 +47,6 @@ let package = Package(
           .binaryTarget(name: "NeoFaceGL", path: "Frameworks/NeoFaceGL2_1.xcframework"),
           .binaryTarget(name: "OrchestratorKit", path: "Frameworks/OrchestratorKit.xcframework"),
           .binaryTarget(name: "ServiceContextKit", path: "Frameworks/ServiceContextKit.xcframework"),
-
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
