@@ -39,6 +39,9 @@ let package = Package(
             ],
             resources: [
               .process("NEC/LicenseGL2.lic"),
+              .process("NEC/IntegrateDct.dat"),
+              .process("NEC/IntegrateDct2.dat"),
+              .process("NEC/IntegrateDct2_2.dat"),
             ]),
           .binaryTarget(name: "MLBCustomKit", path: "MLBCustomKit.xcframework"),
           .binaryTarget(name: "MLBOrchestratorKit", path: "MLBOrchestratorKit.xcframework"),

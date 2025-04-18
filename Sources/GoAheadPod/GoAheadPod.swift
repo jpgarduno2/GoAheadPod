@@ -85,16 +85,16 @@ struct NECConfig: NECConfigurable {
   var password: String
 
   init() {
-//      baseURL = "https://mlb-portal.necidelight.com/api"
-//      authenticationSubdomain = "auth"
-//      workflowsSubdomain = "workflows"
-//      username = "WMSClient"
-//      password = "Dkzcx7Drg8uJ8KOrTmuEoX4uzDbizzg4"
-      baseURL = "https://didndp141.tst.nec-asd.tech/api"
-      authenticationSubdomain = "wms-auth-mlb"
-      workflowsSubdomain = "wms-workflows-mlb"
-      username = "WMS_CLIENT_MLB"
-      password = "SNbk6vetD5h15WgAZLCmSb96Wo4ELrqv"
+      baseURL = "https://mlb-portal.necidelight.com/api"
+      authenticationSubdomain = "auth"
+      workflowsSubdomain = "workflows"
+      username = "WMSClient"
+      password = "Dkzcx7Drg8uJ8KOrTmuEoX4uzDbizzg4"
+//      baseURL = "https://didndp141.tst.nec-asd.tech/api"
+//      authenticationSubdomain = "wms-auth-mlb"
+//      workflowsSubdomain = "wms-workflows-mlb"
+//      username = "WMS_CLIENT_MLB"
+//      password = "SNbk6vetD5h15WgAZLCmSb96Wo4ELrqv"
   }
 }
 

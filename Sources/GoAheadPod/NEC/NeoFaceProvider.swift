@@ -75,6 +75,9 @@
         }
 
         do {
+            print("CONFIG***:",config)
+            print("LICENSE:", licensePath)
+            print("DICTIONARY:", downloadsURL.path)
           self.customKit = try await CustomKit(
             baseURL: config.baseURL,
             authenticationSubdomain: config.authenticationSubdomain,
@@ -118,29 +121,20 @@
               at: downloadsDirectoryURL, withIntermediateDirectories: true)
             logger.info("directory created")
           }
+            
+          for item in ["IntegrateDct", "IntegrateDct2", "IntegrateDct2_2"] {
+            guard let itemURL = Bundle.module.url(forResource: item, withExtension: "dat")
+            else { throw NeoFaceProviderError.nilDirectory }
 
-//          let storage = Storage.storage().reference().child(bucketPath)
-//          let result = try await storage.listAll()
+            let storageURL = downloadsDirectoryURL.appendingPathComponent("\(item).dat")
 
-//          for item in result.items {
-//
-//            let itemURL = downloadsDirectoryURL.appendingPathComponent(item.name)
-//
-//            if fileManger.fileExists(atPath: itemURL.path) {
-//              RUMMonitor.shared().addAttribute(forKey: "NECDownloadSkip", value: true)
-//              logger.info("skipping download of \(item.name) because the file already exists")
-//              continue
-//            }
-//
-//            logger.info("downloading: \(item.name)")
-//            let _ = try await item.writeAsync(toFile: itemURL)
-//            let resourceDownloadTime = (Date().timeIntervalSince(downloadStartDate) * 1000)
-//
-//            RUMMonitor.shared().addAttribute(forKey: "NECDownloadTime", value: resourceDownloadTime)
-//            logger.info("download complete: \(item.name)")
-//          }
+            if !fileManger.fileExists(atPath: storageURL.path) {
+              logger.info("\(storageURL.path).dat doesn't exist")
+              try fileManger.copyItem(atPath: itemURL.path, toPath: storageURL.path)
+            }
+          }
 
-          logger.info("completed resource downloads")
+          logger.info("completed resource copy")
 
           return downloadsDirectoryURL
         }
